@@ -2,6 +2,7 @@
   background: white;
   border-bottom-left-radius: 50px;
 }
+
 .toolbar {
   display: flex;
   margin-left: 5%;
@@ -14,30 +15,31 @@
 
 .collapsed_menu {
   font-size: 25px;
-
 }
+
 .my-logo {
-width: 85%;
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
+  width: 85%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .my-logo:hover {
   text-decoration: underline;
-  text-decoration-color:rgb(29, 124, 202);
+  text-decoration-color: rgb(29, 124, 202);
 }
 
 .container-1 {
   display: flex;
-  gap : 50%
+  gap: 50%;
 }
+
 .ellipse11 {
   margin-left: -10px;
 }
 
 .ellipse_5 {
-  position : absolute; 
+  position: absolute; 
   margin-left: 33.5%;
 }
 
@@ -45,11 +47,13 @@ font-size: 25px;
   margin-left: 35.5%;
   margin-top: -2%;
 }
+
 .rectangle_4 {
   margin-left: 80%;
   margin-top: -15.5%;
   margin-bottom: 0;
 }
+
 .ellipse_3 {
   position: absolute;
   margin-left: 86%;
@@ -76,32 +80,32 @@ font-size: 25px;
 
 .description:hover {
   text-decoration: underline;
-  text-decoration-color:rgb(29, 124, 202) ;
+  text-decoration-color: rgb(29, 124, 202);
 }
 
 .lets_connect {
   margin-left: 5%;
   text-decoration: none;
 }
+
 .lets_connect:hover {
   text-decoration: underline;
-  text-decoration-color:rgb(29, 124, 202) ;
+  text-decoration-color: rgb(29, 124, 202);
 }
 
 a:link, a:visited, a:active {
   text-decoration: none;
 }
 
-
 .img-container {
   display: flex;
-  gap : 5%;
+  gap: 5%;
   margin-top: 4%;
   margin-left: 5%;
 } 
 
 .ellipse_13 {
-  margin-left:85%;
+  margin-left: 85%;
   margin-top: -1.23%;
 }
 
@@ -119,24 +123,20 @@ a:link, a:visited, a:active {
   margin-top: -11%;
 }
 
-
 img:hover {
-  border: 3px solid rgb(29, 124, 202) ;
+  border: 3px solid rgb(29, 124, 202);
 }
 
-/*minimum mobile screen size : 375px*/  
+/* minimum mobile screen size : 375px */
 @media only screen and (min-width: 375px) {
   body {
     background-color: white;
-  }
-  
-  }
+  } 
+}
 
-
-/*minimum desktop screen size : 768px*/
+/* minimum desktop screen size : 768px */
 @media only screen and (min-width: 768px) {
   .container {
     background-color: antiquewhite;
-  }
-  
-  }
+  }  
+}
