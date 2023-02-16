@@ -10,7 +10,7 @@
 }
 
 .primary-color {
-  color : #6070FF;
+  color: #6070ff;
 }
 
 .collapsed_menu {
@@ -39,7 +39,7 @@
 }
 
 .ellipse_5 {
-  position: absolute; 
+  position: absolute;
   margin-left: 33.5%;
 }
 
@@ -93,7 +93,9 @@
   text-decoration-color: rgb(29, 124, 202);
 }
 
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
   text-decoration: none;
 }
 
@@ -102,7 +104,7 @@ a:link, a:visited, a:active {
   gap: 5%;
   margin-top: 4%;
   margin-left: 5%;
-} 
+}
 
 .ellipse_13 {
   margin-left: 85%;
@@ -131,12 +133,12 @@ img:hover {
 @media only screen and (min-width: 375px) {
   body {
     background-color: white;
-  } 
+  }
 }
 
 /* minimum desktop screen size : 768px */
 @media only screen and (min-width: 768px) {
   .container {
     background-color: antiquewhite;
-  }  
+  }
 }
