@@ -83,20 +83,20 @@
   right: 0;
   background-repeat: no-repeat, no-repeat;
   width: 10vh;
-  height: 10vh; 
+  height: 10vh;
 }
 
 .greetings {
   width: 327px;
   height: 150px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -104,7 +104,6 @@
   margin-right: -1%;
   margin-top: -5%;
   margin-bottom: 10%;
-
 }
 
 .greetings:hover {
@@ -118,7 +117,7 @@
   margin-top: -5%;
   width: 327px;
   height: 146px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -127,7 +126,6 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-
 }
 
 .description:hover {
@@ -140,12 +138,12 @@
   text-decoration: none;
   width: 117px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
