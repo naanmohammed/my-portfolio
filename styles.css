@@ -34,37 +34,62 @@
   gap: 50%;
 }
 
-.ellipse11 {
+.ellipse_11 {
+  background-image: url("images/Ellipse11.jpg");
+  background-repeat: no-repeat, no-repeat;
+  width: 10vh;
+  height: 10vh;
   margin-left: -10px;
 }
 
 .ellipse_5 {
+  background-image: url("images/Ellipse 5.jpg");
+  background-repeat: no-repeat, no-repeat;
+  width: 10vh;
+  height: 10vh;
   position: absolute;
-  margin-left: 33.5%;
+  margin-left: 34.5%;
+  margin-top: -7%;
 }
 
 .rectangle_7 {
+  background-image: url("images/Rectangle 7.jpg");
+  background-repeat: no-repeat, no-repeat;
+  width: 10vh;
+  height: 10vh;
   margin-left: 35.5%;
-  margin-top: -2%;
+  margin-top: -10%;
 }
 
 .rectangle_4 {
-  margin-left: 80%;
-  margin-top: -15.5%;
+  background-image: url("images/Rectangle 4.jpg");
+  margin-left: 82%;
+  margin-top: -19.5%;
   margin-bottom: 0;
+  background-repeat: no-repeat, no-repeat;
+  width: 10vh;
+  height: 10vh;
 }
 
 .ellipse_3 {
+  background-image: url("images/Ellipse 3.jpg");
   position: absolute;
   margin-left: 86%;
-  margin-top: -9%;
+  margin-top: -8%;
+  background-repeat: no-repeat, no-repeat;
+  width: 10vh;
+  height: 10vh;
 }
 
 .greetings {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size:x-large;
+  line-height: 52px;
   margin-top: 10%;
   margin-left: 5%;
   width: 60%;
-  font-size: large;
 }
 
 .greetings:hover {
@@ -73,9 +98,12 @@
 }
 
 .description {
-  font-size: large;
+  font-family: 'Poppins';
+   font-size: medium;
   margin-left: 5%;
-  width: 65%;
+  margin-right: -1%;
+  margin-top: -5%;
+  width: 75%;
 }
 
 .description:hover {
@@ -102,30 +130,55 @@ a:active {
 .img-container {
   display: flex;
   gap: 5%;
-  margin-top: 4%;
-  margin-left: 5%;
+  margin-top: -12%;
+  margin-left: -5%;
 }
 
 .ellipse_13 {
-  margin-left: 85%;
-  margin-top: -1.23%;
+  background-image: url("images/Ellipse 13.jpg");
+  margin-left: 81.5%;
+  margin-top: -15%;
+  background-repeat: no-repeat, no-repeat;
+  width: 10vh;
+  height: 10vh;
 }
 
+.ellipse_12 {
+  background-image: url("images/Ellipse 12.jpg");
+  background-repeat: no-repeat, no-repeat;
+  margin-left: 85%;
+  margin-top: -1.23%;
+  width: 10vh;
+  height: 10vh;
+}
 .ellipse_15 {
-  margin-top: 20%;
+  background-image: url("images/Ellipse 15.jpg");
+  margin-top: 10%;
   margin-left: 15%;
+  background-repeat: no-repeat, no-repeat;
+  width: 10vh;
+  height: 10vh;
 }
 
 .rectangle_5 {
+  background-image: url("images/Rectangle 5.jpg");
   margin-left: 60%;
+  margin-top: -15%;
+  background-repeat: no-repeat, no-repeat;
+  width: 10vh;
+  height: 10vh;
 }
 
 .ellipse_4 {
+  background-image: url("images/Ellipse 4.jpg");
   margin-left: 73%;
-  margin-top: -11%;
+  margin-top: -18%;
+  background-repeat: no-repeat, no-repeat;
+  width: 10vh;
+  height: 10vh;
 }
 
-img:hover {
+li:hover {
   border: 3px solid rgb(29, 124, 202);
 }
 
@@ -141,4 +194,8 @@ img:hover {
   .container {
     background-color: antiquewhite;
   }
+}
+
+ul {
+  list-style-type: none;
 }
