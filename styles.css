@@ -22,6 +22,12 @@
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .my-logo:hover {
