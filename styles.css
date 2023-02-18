@@ -1,3 +1,6 @@
+html{
+  background: #F7F7F9
+}
 body {
   background-image: url('images/shapes.jpg');
   background-repeat: no-repeat;
@@ -151,9 +154,7 @@ ul {
 }
 
 .works {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
   padding: 114px 24px;
   gap: 88px;
   position: absolute;
@@ -460,10 +461,11 @@ ul {
   width: 124px;
   height: 48px;
   left: 0;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 5%;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  
 }
 
 .see_project {
@@ -472,7 +474,7 @@ ul {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -485,6 +487,7 @@ ul {
 }
 
 .about_myself {
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -495,9 +498,11 @@ ul {
   height: 1125.15px;
   left: calc(50% - 375px / 2);
   top: 3506px;
+  margin-top: 20%;
 }
 
 .top {
+  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -549,7 +554,7 @@ ul {
   width: 200px;
   height: 80px;
   flex: none;
-  order: 2;
+  order: 1;
   flex-grow: 0;
 }
 
@@ -578,6 +583,7 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: -15%;
 }
 
 .icon_container {
@@ -592,6 +598,7 @@ ul {
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-top: -20%;
 }
 
 .resume_button {
@@ -608,6 +615,7 @@ ul {
   flex: none;
   order: 3;
   flex-grow: 0;
+  margin-top: 2%;
 }
 
 .resume_text {
@@ -651,6 +659,7 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: -20%;
 }
 
 .language_header {
@@ -659,7 +668,14 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 160px;
 }
+
 
 .language_list {
   display: flex;
@@ -712,6 +728,12 @@ ul {
   font-size: large;
   margin-right: 40%;
   margin-bottom: 40px;
+  padding: 0;
+  gap: 160px;
+}
+
+.left{
+  margin-left: 65px;
 }
 
 .separator {
