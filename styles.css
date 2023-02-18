@@ -172,7 +172,7 @@ ul {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
@@ -258,7 +258,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 55px;
   height: 32px;
   flex: none;
@@ -314,6 +314,7 @@ ul {
   order: 0;
   flex-grow: 0;
 }
+
 .year_label {
   display: flex;
   flex-direction: row;
@@ -398,7 +399,7 @@ ul {
 .tag_html {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -413,7 +414,7 @@ ul {
 .tag_css {
   width: 21px;
   height: 16px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -492,7 +493,7 @@ ul {
   position: absolute;
   width: 375px;
   height: 1125.15px;
-  left: calc(50% - 375px/2);
+  left: calc(50% - 375px / 2);
   top: 3506px;
 }
 
@@ -512,7 +513,7 @@ ul {
 .about_header {
   width: 327px;
   height: 101px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -528,7 +529,7 @@ ul {
 .about_description {
   width: 327px;
   height: 144px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -568,12 +569,12 @@ ul {
 .connect {
   width: 117px;
   height: 24px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -612,7 +613,7 @@ ul {
 .resume_text {
   width: 138px;
   height: 24px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -674,7 +675,6 @@ ul {
   flex-grow: 0;
   font-size: large;
   color: #253858;
-
 }
 
 .lang {
@@ -716,14 +716,11 @@ ul {
 
 .separator {
   position: absolute;
-height: 1px;
-left: 0;
-right: 0;
-bottom: 0;
-
-/* Neutrals/N40 */
-
-background: #dfe1e6;
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #dfe1e6;
 }
 
 .underline :hover {
