@@ -501,7 +501,7 @@ ul {
   margin-top: 20%;
 }
 
-.top { 
+.top {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -728,7 +728,7 @@ ul {
   gap: 160px;
 }
 
-.left{
+.left {
   margin-left: 65px;
 }
 
