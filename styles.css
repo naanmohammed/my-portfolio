@@ -726,6 +726,7 @@ ul {
   margin-bottom: 40px;
   padding: 0;
   gap: 160px;
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .left {
@@ -733,9 +734,8 @@ ul {
 }
 
 .separator {
-  position: absolute;
   height: 1px;
-  background: #dfe1e6;
+  background: ;
   border-bottom: 1px solid #344563;
 }
 
