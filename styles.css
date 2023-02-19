@@ -735,10 +735,8 @@ ul {
 .separator {
   position: absolute;
   height: 1px;
-  left: 0;
-  right: 0;
-  bottom: 0;
   background: #dfe1e6;
+  border-bottom: 1px solid #344563;
 }
 
 .underline :hover {
