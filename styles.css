@@ -788,7 +788,8 @@ ul {
   line-height: 28px;
   text-align: center;
   color: #EBEBFF;
-  padding: 0 24px 60px 24px;
+  padding: 0 24px 40px 24px;
+  margin-top: -10px;
 }
 
 input {
@@ -797,5 +798,36 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 16px 15px 38px 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+form ul{
+  padding: 0 24px 0px 20px;
+}
+
+form li + li{
+  margin-top: 1rem;
+}
+
+form textarea{
+  width: 327px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  margin-top: -10px;
   margin-left: 20px;
+  margin-right: 24px;
+  box-sizing: border-box;
+  padding: 16px 15px 38px 15px;
 }
