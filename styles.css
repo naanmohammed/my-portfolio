@@ -499,6 +499,7 @@ ul {
   left: calc(50% - 375px / 2);
   top: 3506px;
   margin-top: 20%;
+  border-top-right-radius: 75px;
 }
 
 .top {
@@ -745,4 +746,34 @@ ul {
 
 .border :hover {
   border: 1px solid #396df2;
+}
+
+.contact_me {
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  left: 0px;
+  top: 5410px;
+  background: #6070FF;
+  background-position: right;
+  background-image: url('images/contact\ form\ shapes-mobile.png');
+  background-repeat: no-repeat;
+}
+
+.contact_me h2 {
+  position: absolute;
+  width: auto;
+  height: 56px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 100px;
+  margin-left: 70px;
+
 }
