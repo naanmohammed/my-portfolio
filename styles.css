@@ -847,6 +847,10 @@ form textarea{
   padding: 16px 15px 38px 15px;
   font-size: 15px;
   font-family: 'Poppins';
+  
+}
+
+form textarea ::placeholder{
   color: #B3BAC5;
 }
 
