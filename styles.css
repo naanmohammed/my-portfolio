@@ -758,6 +758,8 @@ ul {
   background-position: right;
   background-image: url('images/contact\ form\ shapes-mobile.png');
   background-repeat: no-repeat;
+  border-top-left-radius: 80px;
+  margin-top: -695px;
 }
 
 .contact_me h2 {
@@ -817,9 +819,21 @@ form li + li{
   margin-top: 1rem;
 }
 
+input[type="text"]
+{
+    font-size: 18px;
+    padding: 0 17px;
+}
+
+input[type="email"]
+{
+    font-size: 18px;
+    padding: 0 17px;
+}
+
 form textarea{
   width: 327px;
-  height: 170px;
+  height: 190px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -828,6 +842,23 @@ form textarea{
   margin-top: -10px;
   margin-left: 20px;
   margin-right: 24px;
+  margin-bottom: 20px;
   box-sizing: border-box;
   padding: 16px 15px 38px 15px;
+  font-size: 15px;
+  font-family: 'Poppins';
+  color: #B3BAC5;
+}
+
+.contact_me button {
+  width: 142px;
+  height: 48px;
+  margin-left: 20px;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  color: #6070FF;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #FFFFFF;
+  border: none;
 }
