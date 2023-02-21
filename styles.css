@@ -761,7 +761,6 @@ ul {
 }
 
 .contact_me h2 {
-  position: absolute;
   width: auto;
   height: 56px;
   font-family: 'Poppins';
@@ -776,4 +775,27 @@ ul {
   margin-top: 100px;
   margin-left: 70px;
 
+}
+
+.contact_me p {
+  width: auto;
+  height: 102px;
+  top: 138px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  padding: 0 24px 60px 24px;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
 }
