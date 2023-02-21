@@ -811,27 +811,25 @@ input {
   line-height: 20px;
 }
 
-form ul{
+form ul {
   padding: 0 24px 0px 20px;
 }
 
-form li + li{
+form li + li {
   margin-top: 1rem;
 }
 
-input[type="text"]
-{
+input[type="text"] {
     font-size: 18px;
     padding: 0 17px;
 }
 
-input[type="email"]
-{
+input[type="email"] {
     font-size: 18px;
     padding: 0 17px;
 }
 
-form textarea{
+form textarea {
   width: 327px;
   height: 190px;
   display: flex;
@@ -846,11 +844,10 @@ form textarea{
   box-sizing: border-box;
   padding: 16px 15px 38px 15px;
   font-size: 15px;
-  font-family: 'Poppins';
-  
+  font-family: 'Poppins'; 
 }
 
-form textarea ::placeholder{
+form textarea ::placeholder {
   color: #B3BAC5;
 }
 
