@@ -132,7 +132,7 @@ a:active {
   margin-left: -5%;
 }
 
-li:hover {
+.img_container li:hover {
   border: 0.1px solid #7f8cff;
 }
 
@@ -749,12 +749,13 @@ ul {
 }
 
 .contact_me {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   width: 375px;
   height: 779px;
-  left: 0px;
   top: 5410px;
-  background: #6070FF;
+  background: #6070ff;
   background-position: right;
   background-image: url('images/contact\ form\ shapes-mobile.png');
   background-repeat: no-repeat;
@@ -765,7 +766,7 @@ ul {
 .contact_me h2 {
   width: auto;
   height: 56px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -773,23 +774,22 @@ ul {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 100px;
   margin-left: 70px;
-
 }
 
 .contact_me p {
   width: auto;
   height: 102px;
   top: 138px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   padding: 0 24px 40px 24px;
   margin-top: -10px;
 }
@@ -800,19 +800,20 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   box-sizing: border-box;
   padding: 16px 15px 38px 15px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+  margin-top: -5px;
 }
 
 form ul {
-  padding: 0 24px 0px 20px;
+  padding: 0 24px 0 20px;
 }
 
 form li + li {
@@ -820,13 +821,13 @@ form li + li {
 }
 
 input[type="text"] {
-    font-size: 18px;
-    padding: 0 17px;
+  font-size: 18px;
+  padding: 0 17px;
 }
 
 input[type="email"] {
-    font-size: 18px;
-    padding: 0 17px;
+  font-size: 18px;
+  padding: 0 17px;
 }
 
 form textarea {
@@ -835,20 +836,20 @@ form textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
-  margin-top: -10px;
+  margin-top: -20px;
   margin-left: 20px;
   margin-right: 24px;
   margin-bottom: 20px;
   box-sizing: border-box;
   padding: 16px 15px 38px 15px;
   font-size: 15px;
-  font-family: 'Poppins'; 
+  font-family: 'Poppins', sans-serif; 
 }
 
 form textarea ::placeholder {
-  color: #B3BAC5;
+  color: #b3bac5;
 }
 
 .contact_me button {
@@ -856,10 +857,14 @@ form textarea ::placeholder {
   height: 48px;
   margin-left: 20px;
   border-radius: 8px;
-  font-family: 'Poppins';
-  color: #6070FF;
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
   font-size: 17px;
   font-weight: 500;
-  background-color: #FFFFFF;
+  background-color: #fff;
   border: none;
+}
+
+.contact_me button:hover {
+  background-color: #344563;
 }
