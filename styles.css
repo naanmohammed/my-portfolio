@@ -132,7 +132,7 @@ a:active {
   margin-left: -5%;
 }
 
-.img_container li:hover {
+.img_container_hover:hover {
   border: 0.1px solid #7f8cff;
 }
 
