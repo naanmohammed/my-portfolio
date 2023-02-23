@@ -114,6 +114,11 @@ To run the project :
 - Twitter: [@_naanahmed](https://twitter.com/twitterhandle)
 - LinkedIn: [naanahmed](https://linkedin.com/in/naanahmed)
 
+👤 **Yidam Villarreal**
+
+- GitHub: [@uuukiiiyooo](https://github.com/uuukiiiyooo)
+- Twitter: [@uuukiiiyooo](https://twitter.com/uuukiiiyooo)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
