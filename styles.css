@@ -5,6 +5,7 @@ html {
 body {
   background-image: url('images/shapes.jpg');
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .container {
@@ -761,6 +762,7 @@ ul {
   background-repeat: no-repeat;
   border-top-left-radius: 80px;
   margin-top: -695px;
+  overflow-x: hidden;
 }
 
 .contact_me h2 {
@@ -861,10 +863,72 @@ form textarea ::placeholder {
   color: #6070ff;
   font-size: 17px;
   font-weight: 500;
-  background-color: #fff;
-  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #7f8cff;
 }
 
 .contact_me button:hover {
-  background-color: #344563;
+  width: 142px;
+  height: 48px;
+  margin-left: 20px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.contact_me button:active {
+  width: 142px;
+  height: 48px;
+  margin-left: 20px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.contact_me button:disabled {
+  width: 142px;
+  height: 48px;
+  margin-left: 20px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: white;
+  color: gray;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: 1px solid #c1c7d0;
 }
