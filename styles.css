@@ -585,6 +585,7 @@ form textarea ::placeholder {
   background: #fff;
   border: 1px solid #7f8cff;
   margin-left: 8%;
+  transition: background-color 1s 0.1s, color 1s 0.1s;
 }
 
 .contact_me button:hover {
