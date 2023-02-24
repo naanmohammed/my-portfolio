@@ -299,19 +299,22 @@ ul {
   height: 100%;
   margin-top: 20%;
   border-top-right-radius: 75px;
+  padding-bottom: 40%;
+  overflow-x: hidden;
 }
 
 .about_header {
-  width: 327px;
-  height: 101px;
+  width: 100%;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 200%;
   display: flex;
   align-items: center;
   color: #172b4d;
+  margin-left: 14%;
+  margin-top: 15%;
 }
 
 .about_header:hover{
@@ -328,6 +331,7 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-top: 3%;
 }
 
 .about_description:hover{
@@ -335,14 +339,15 @@ ul {
   text-decoration-color: #6070ff;
 }
 .connect {
-  width: 117px;
-  height: 24px;
+  width: 100%;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
   color: #7f8cff;
+  margin-left: 16%;
+  margin-top: 3%;
 }
 
 .connect:hover{
@@ -354,10 +359,11 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  width: 236px;
-  height: 32px;
+  gap: 7%;
+  width: 85%;
+  height: 100%;
+  margin-top: 6%;
+  margin-left: 7%;
 }
 
 .about_myself ul li:hover{
@@ -367,27 +373,20 @@ ul {
 .resume_button {
   box-sizing: border-box;
   display: flex;
-  width: 162px;
-  height: 48px;
+  width: 40%;
+  height: 100%;
   border: 1px solid #6070ff;
-  border-radius: 8px;
-  margin-top: 2%;
+  border-radius: 12%;
+  padding-left: 3%;
+  padding: 1.5% 1.5%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 100%;
   letter-spacing: 0.03em;
   color: #396df2;
-}
-
-.skills_list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-  width: 327px;
-  height: 464.15px;
-  margin-top: 20%;
+  margin-top: 3%;
+  margin-left: -42.5%;
 }
 
 .languages {
@@ -395,9 +394,9 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  width: 327px;
-  height: 320.15px;
-  margin-top: -20%;
+  width: 100%;
+  height: 100%;
+  margin-left: 16%;
 }
 
 .language_header {
@@ -410,14 +409,6 @@ ul {
 }
 
 .language_list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0;
-  gap: 10px;
-  width: 236px;
-  height: 32px;
   font-size: large;
   color: #253858;
 }
@@ -431,6 +422,7 @@ ul {
   border-radius: 8px;
   margin-right: -20%;
   padding: 5%;
+  margin-bottom: 5%;
 }
 
 .language_list div p{
@@ -448,7 +440,7 @@ ul {
   height: 24px;
   font-size: large;
   margin-right: 40%;
-  margin-left: 2%;
+  margin-left: 15%;
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -462,60 +454,67 @@ ul {
 }
 
 .separator {
-  width: 100%;
+  width: 90%;
   height: 1px;
   border-bottom: 1px solid #dfe1e6;
+  margin-left: 15%;
 }
 
-.contact_me {
-  display: flex;
-  flex-direction: column;
+.purple{
+  background: #6070ff;
   width: 100%;
   height: 100%;
-  background: #6070ff;
-  background-position: right;
-  background-image: url('images/contact\ form\ shapes-mobile.png');
-  background-repeat: no-repeat;
+  padding-top: 10%;
   border-top-left-radius: 80px;
+  padding-bottom: 10%;
+}
+.contact_me {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  background-image: url('images/contact\ form\ shapes-mobile.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
   overflow-x: hidden;
+  padding-top: 35%;
 }
 
 .contact_me h2 {
-  width: auto;
-  height: 56px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  z-index: 1;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #fff;
-  margin-top: 35%;
   margin-left: 20%;
+  margin-top: -20%;
 }
 
 .contact_me p {
-  width: 100%;
-  height: 102px;
-  top: 138px;
+  justify-content: center;
+  text-align: center;
+  width: 95%;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 28px;
-  text-align: center;
   color: #ebebff;
-  padding: 0 24px 40px 24px;
-  margin-top: 6%;
-  margin-bottom: 21%;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-bottom: 6%;
+  padding-left: 5%;
+  padding-right: 3%;
 }
 
 .contact_me form ul{
   display: flex;
   flex-direction: column;
-  
 }
 
 input {
@@ -530,6 +529,7 @@ input {
   font-weight: 400;
   font-size: 17px;
   margin-left: 3%;
+  margin-bottom: 4%;
 }
 
 form ul {
@@ -560,7 +560,7 @@ form textarea {
   padding: 16px 15px 38px 15px;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  margin-top: 5%;
+
   margin-left: 8%;
 }
 
