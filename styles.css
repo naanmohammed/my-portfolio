@@ -25,6 +25,9 @@ header {
   margin-left: 5%;
 }
 
+.text_arrow img {
+  margin-left: 320%;
+}
 
 .text_arrow div {
   margin-left: 331%;
@@ -121,10 +124,6 @@ form ul {
   padding-bottom: 30%;
   background-color: white;
   background-size: 100% auto;
-}
-
-.text_arrow div {
-  margin-left: 110%;
 }
 
 .headline h1 {
@@ -865,10 +864,6 @@ form textarea ::placeholder {
 
   .separator {
     width: 390%;
-  }
-
-  .text_arrow img {
-    margin-left: 320%;
   }
 
   .about_myself {
