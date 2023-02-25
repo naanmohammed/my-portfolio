@@ -52,6 +52,21 @@ header{
   color: #6070ff;
 }
 
+.menu ul{
+  display: flex;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-right: 65%;
+  margin-top: 30%;
+}
+
+.menu ul li{
+  margin-right: 35%;
+}
+
 .headline{
   background-image: url('images/shapes.png');
   background-repeat: no-repeat;
@@ -70,6 +85,7 @@ header{
   margin-left: 5%;
   margin-bottom: 10%;
   padding-top: 23%;
+  padding-right: 20%;
 }
 
 .headline h1:hover {
@@ -648,10 +664,241 @@ form textarea ::placeholder {
   border: 1px solid #c1c7d0;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 767px) {
+  .menu{
+    display: none;
+  }
 }
 
 /* minimum desktop screen size : 768px */
 @media only screen and (min-width: 768px) {
+  
+  .page-1_container{
+    margin: auto;
+  }
+  header{
+    margin-bottom: -5%;
+    margin-top: -5%;
+  }
+  .my-logo {
+    margin-right: 70%;
+    margin-top: 6.5%;
+  }
+  .collapsed_menu {
+    display: none;
+  }
+
+  .menu{
+    margin-top: 3%; 
+  }
+  .headline {
+    width: 100%;
+    background-image: url('images/Header\ bg.png');
+    background-position: fixed;
+    background-size: 100% 80%;
+    padding-bottom: 8%;
+  
+  }
+
+  .headline h1 {
+    margin-left: 17%;
+    margin-bottom: 7%;
+    margin-top: 10%;
+    padding-top: 15%;
+  }
+
+  .headline p {
+    width: 50%;
+    margin-left: 17%;
+  }
+
+  .headline div{
+    margin-left: 17%;
+    margin-top: -3%;
+  }
+
+  .headline ul{
+    margin-left: 17%;
+    margin-top: -2%;
+    margin-bottom: 10%;
+    gap: 2%
+  }
+  .card_works {
+    box-sizing: border-box;
+    display: grid;
+    width: 1156px;
+    height: 476px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 3%;
+  }
+
+  .snapshot_portfolio{
+    size-adjust: 100%;
+    float: left;
+    width: 544px;
+    height:  448px;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+  }
+
+  .snapshot_portfolio_1{
+    size-adjust: 100%;
+    float: right;
+    width: 544px;
+    height:  448px;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+  }
+
+  .left_block {
+    width: 50%;
+    margin-left: 54%;
+    margin-top: -85%;
+  }
+
+  .work_1 .snapshot_portfolio{
+    background: url('images/Snapshoot\ Portfolio.png');
+    margin-top: -4%;
+    margin-left: -4%;
+  }
+
+  .work_2 .snapshot_portfolio_1{
+    margin-left: 50%
+  }
+
+  .work_2 .left_block{
+    margin-left: -2%;
+  }
+
+  .work_3 .snapshot_portfolio{
+    margin-left: -4%;
+    margin-top: -3%;
+  }
+  .work_4 .snapshot_portfolio_1{
+    margin-left: 50%;
+    background: url('images/uber.png');
+    margin-top: -4%;
+  }
+
+  .work_4 .left_block{
+    margin-left: -2%;
+  }
+
+  .card_works + .card_works{
+    margin-top: 10%;
+  }
+
+  .works{
+    margin-left: 10%;
+  }
+  .about_header{
+    margin-bottom: -0.1%;
+  }
+  .about_description{
+    margin-left: -58%;
+    margin-top: 0.99%;
+    width: 447px;
+  }
+
+  .connect{
+    margin-top: -2%;
+    margin-left: 14%;
+  }
+
+  .about_myself ul{
+    gap:1%;
+    margin-top : 1%;
+    margin-left: 1%;
+  }
+
+  .resume_button {
+    width: 13%;
+    margin-left: -73%;
+    margin-top: 1%;
+    padding: 0.2%;
+  }
+
+  .languages{
+    margin-left: 87%;
+    margin-top: -17%;
+  }
+
+  .language_header p{
+    margin-right: 500px;
+  }
+  .language_list {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+  }
+
+  .language_list + .language_list{
+    margin-right: 10%;
+  }
+
+  .language_list div{
+    flex-direction: column;
+    margin-right: 10%;
+    margin-bottom: 20%;
+    background-color: f7f7f9;
+    padding-bottom: 30%;
+  }
+
+  .language_list div img{
+    width: 48px;
+    height: 48px;
+    margin-top: -5%;
+  }
+
+  .move_skills{
+    margin-left: -4%;
+  }
+
+  .separator {
+    width: 390%;
+  }
+
+  .text_arrow div{
+    margin-left: 331%;
+  }
+
+  .text_arrow img{
+    margin-left: 320%;
+  }
+
+  .about_myself {
+    padding-bottom: 10%;
+  }
+  .contact_me {
+    background: url('images/contact\ form\ background\ shapes@2x.png');
+  }
+
+  .contact_me h2 {
+    width: 50%;
+    margin-top: -30%;
+    margin-left: 40%;
+  }
+  .contact_me p {
+    width: 35%;
+    margin-left: 30%;
+    margin-bottom: 1%;
+  }
+
+  .contact_me input{
+    margin-left: 38%;
+    margin-bottom: 1%;
+  }
+  form textarea{
+    margin-left: 38%;
+    margin-bottom: 1%;
+  }
+
+  .contact_me button{
+    margin-left: 38%;
+    margin-bottom: 1%;
+  }
 
 }
