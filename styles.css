@@ -20,9 +20,25 @@ body {
   overflow-x: hidden;
 }
 
-header {  
+header {
   display: flex;
   margin-left: 5%;
+}
+.contact_me p {
+  justify-content: center;
+  text-align: center;
+  width: 95%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ebebff;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-bottom: 6%;
+  padding-left: 5%;
+  padding-right: 3%;
 }
 
 .my-logo {
@@ -34,6 +50,10 @@ header {
   color: #6070ff;
   margin-right: 65%;
   margin-top: 5%;
+}
+
+form ul {
+  padding: 0 24px 0 20px;
 }
 
 .my-logo a {
@@ -54,6 +74,10 @@ header {
 
 ul {
   list-style-type: none;
+}
+
+.language_list div p {
+  padding: 5%;
 }
 
 .menu ul {
@@ -77,6 +101,10 @@ ul {
   padding-bottom: 30%;
   background-color: white;
   background-size: 100% auto;
+}
+
+.text_arrow div {
+  margin-left: 110%;
 }
 
 .headline h1 {
@@ -131,13 +159,13 @@ ul {
 
 .tags div {
   flex-direction: row;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 20%;
   margin-right: 12%;
   padding: 4% 7%;
   padding-left: 10%;
   padding-right: 10%;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .language_list div img {
@@ -369,6 +397,7 @@ ul {
   text-decoration: underline;
   text-decoration-color: #6070ff;
 }
+
 .connect {
   width: 100%;
   height: 100%;
@@ -409,7 +438,8 @@ ul {
   border: 1px solid #6070ff;
   border-radius: 12%;
   padding-left: 3%;
-  padding: 1.5% 1.5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -444,9 +474,6 @@ ul {
   color: #253858;
 }
 
-.language_list div p {
-  padding: 5%;
-}
 
 .text_arrow {
   display: flex;
@@ -458,11 +485,6 @@ ul {
   margin-left: 15%;
   margin-top: 4%;
   margin-bottom: 4%;
-}
-
-
-.text_arrow div {
-  margin-left: 110%;
 }
 
 .separator {
@@ -508,23 +530,6 @@ ul {
   margin-top: -20%;
 }
 
-.contact_me p {
-  justify-content: center;
-  text-align: center;
-  width: 95%;
-  height: 100%;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  color: #ebebff;
-  margin-top: 1%;
-  margin-left: 3%;
-  margin-bottom: 6%;
-  padding-left: 5%;
-  padding-right: 3%;
-}
-
 .contact_me form ul {
   display: flex;
   flex-direction: column;
@@ -543,10 +548,6 @@ input {
   font-size: 17px;
   margin-left: 3%;
   margin-bottom: 4%;
-}
-
-form ul {
-  padding: 0 24px 0 20px;
 }
 
 input[type="text"] {
@@ -573,7 +574,6 @@ form textarea {
   padding: 16px 15px 38px 15px;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-
   margin-left: 8%;
 }
 
@@ -664,12 +664,10 @@ form textarea ::placeholder {
   .menu {
     display: none;
   }
-
 }
 
 /* minimum desktop screen size : 768px */
 @media only screen and (min-width: 768px) {
-  
   .page-1_container {
     margin: auto;
   }
@@ -689,7 +687,7 @@ form textarea ::placeholder {
   }
 
   .menu {
-    margin-top: 3%; 
+    margin-top: 3%;
   }
 
   .headline {
@@ -735,7 +733,6 @@ form textarea ::placeholder {
   }
 
   .snapshot_portfolio {
-    size-adjust: 100%;
     float: left;
     width: 544px;
     height:  448px;
@@ -794,9 +791,11 @@ form textarea ::placeholder {
   .works {
     margin-left: 10%;
   }
+
   .about_header {
     margin-bottom: -0.1%;
   }
+
   .about_description {
     margin-left: -58%;
     margin-top: 0.99%;
@@ -809,8 +808,8 @@ form textarea ::placeholder {
   }
 
   .about_myself ul {
-    gap:1%;
-    margin-top : 1%;
+    gap: 1%;
+    margin-top: 1%;
     margin-left: 1%;
   }
 
@@ -872,6 +871,7 @@ form textarea ::placeholder {
   .about_myself {
     padding-bottom: 10%;
   }
+
   .contact_me {
     background: url('images/contact\ form\ background\ shapes@2x.png');
   }
@@ -881,6 +881,7 @@ form textarea ::placeholder {
     margin-top: -30%;
     margin-left: 40%;
   }
+  
   .contact_me p {
     width: 35%;
     margin-left: 30%;
