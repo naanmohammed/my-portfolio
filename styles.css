@@ -20,7 +20,7 @@ body {
   overflow-x: hidden;
 }
 
-header{  
+header {  
   display: flex;
   margin-left: 5%;
 }
@@ -36,7 +36,7 @@ header{
   margin-top: 5%;
 }
 
-.my-logo a{
+.my-logo a {
   text-decoration: none;
   color: #7f8cff;
 }
@@ -52,9 +52,13 @@ header{
   color: #6070ff;
 }
 
-.menu ul{
+ul {
+  list-style-type: none;
+}
+
+.menu ul {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -63,19 +67,19 @@ header{
   margin-top: 30%;
 }
 
-.menu ul li{
+.menu ul li {
   margin-right: 35%;
 }
 
-.headline{
+.headline {
   background-image: url('images/shapes.png');
   background-repeat: no-repeat;
   padding-bottom: 30%;
   background-color: white;
-  background-size:100% auto;
+  background-size: 100% auto;
 }
 
-.headline h1{
+.headline h1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 250%;
@@ -125,6 +129,33 @@ header{
   margin-bottom: 3%;
 }
 
+.tags div {
+  flex-direction: row;
+  background: #EBEBFF;
+  border-radius: 20%;
+  margin-right: 12%;
+  padding: 4% 7%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #6070FF;
+}
+
+.language_list div img {
+  border-radius: 50%;
+}
+
+.language_list div {
+  display: flex;
+  flex-direction: row;
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-right: -20%;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
 .headline div:hover {
   text-decoration: underline;
   text-decoration-color: #7f8cff;
@@ -145,12 +176,6 @@ header{
 
 .headline ul li:hover {
   border: 0.1px solid #7f8cff;
-}
-
-/* minimum mobile screen size : 375px */
-
-ul {
-  list-style-type: none;
 }
 
 .works {
@@ -174,7 +199,7 @@ ul {
   border-radius: 3%;
 }
 
-.card_works + .card_works{
+.card_works + .card_works {
   margin-top: 30%;
 }
 
@@ -273,21 +298,10 @@ ul {
   margin-bottom: 4%;
 }
 
-.tags{
+.tags {
   display: flex;
   width: 40%;
   margin-bottom: 4%;
-}
-
-.tags div{
-  flex-direction: row;
-  background: #EBEBFF;
-  border-radius: 20%;
-  margin-right: 12%;
-  padding: 4% 7%;
-  padding-left: 10%;
-  padding-right: 10%;
-  color: #6070FF;
 }
 
 .see_project {
@@ -334,7 +348,7 @@ ul {
   margin-top: 15%;
 }
 
-.about_header:hover{
+.about_header:hover {
   text-decoration: underline;
   text-decoration-color: #6070ff;
 }
@@ -351,7 +365,7 @@ ul {
   margin-top: 3%;
 }
 
-.about_description:hover{
+.about_description:hover {
   text-decoration: underline;
   text-decoration-color: #6070ff;
 }
@@ -367,7 +381,7 @@ ul {
   margin-top: 3%;
 }
 
-.connect:hover{
+.connect:hover {
   text-decoration: underline;
   text-decoration-color: #6070ff;
 }
@@ -383,7 +397,7 @@ ul {
   margin-left: 7%;
 }
 
-.about_myself ul li:hover{
+.about_myself ul li:hover {
   border: 1px solid #396df2;
 }
 
@@ -430,24 +444,8 @@ ul {
   color: #253858;
 }
 
-.language_list div {
-  display: flex;
-  flex-direction: row;
-  width: 303px;
-  height: 66.72px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  margin-right: -20%;
+.language_list div p {
   padding: 5%;
-  margin-bottom: 5%;
-}
-
-.language_list div p{
-  padding: 5%;
-}
-
-.language_list div img{
-  border-radius: 50%;
 }
 
 .text_arrow {
@@ -462,11 +460,8 @@ ul {
   margin-bottom: 4%;
 }
 
-.text_arrow img{
-  margin-left: 90%;
-}
 
-.text_arrow div{
+.text_arrow div {
   margin-left: 110%;
 }
 
@@ -477,7 +472,7 @@ ul {
   margin-left: 15%;
 }
 
-.purple{
+.purple {
   background: #6070ff;
   width: 100%;
   height: 100%;
@@ -485,6 +480,7 @@ ul {
   border-top-left-radius: 80px;
   padding-bottom: 10%;
 }
+
 .contact_me {
   display: flex;
   position: relative;
@@ -529,7 +525,7 @@ ul {
   padding-right: 3%;
 }
 
-.contact_me form ul{
+.contact_me form ul {
   display: flex;
   flex-direction: column;
 }
@@ -665,39 +661,43 @@ form textarea ::placeholder {
 }
 
 @media only screen and (max-width: 767px) {
-  .menu{
+  .menu {
     display: none;
   }
+
 }
 
 /* minimum desktop screen size : 768px */
 @media only screen and (min-width: 768px) {
   
-  .page-1_container{
+  .page-1_container {
     margin: auto;
   }
-  header{
+
+  header {
     margin-bottom: -5%;
     margin-top: -5%;
   }
+
   .my-logo {
     margin-right: 70%;
     margin-top: 6.5%;
   }
+
   .collapsed_menu {
     display: none;
   }
 
-  .menu{
+  .menu {
     margin-top: 3%; 
   }
+
   .headline {
     width: 100%;
     background-image: url('images/Header\ bg.png');
     background-position: fixed;
     background-size: 100% 80%;
     padding-bottom: 8%;
-  
   }
 
   .headline h1 {
@@ -712,17 +712,18 @@ form textarea ::placeholder {
     margin-left: 17%;
   }
 
-  .headline div{
+  .headline div {
     margin-left: 17%;
     margin-top: -3%;
   }
 
-  .headline ul{
+  .headline ul {
     margin-left: 17%;
     margin-top: -2%;
     margin-bottom: 10%;
     gap: 2%
   }
+
   .card_works {
     box-sizing: border-box;
     display: grid;
@@ -733,7 +734,7 @@ form textarea ::placeholder {
     border-radius: 3%;
   }
 
-  .snapshot_portfolio{
+  .snapshot_portfolio {
     size-adjust: 100%;
     float: left;
     width: 544px;
@@ -743,8 +744,7 @@ form textarea ::placeholder {
     margin: 0;
   }
 
-  .snapshot_portfolio_1{
-    size-adjust: 100%;
+  .snapshot_portfolio_1 {
     float: right;
     width: 544px;
     height:  448px;
@@ -759,56 +759,56 @@ form textarea ::placeholder {
     margin-top: -85%;
   }
 
-  .work_1 .snapshot_portfolio{
+  .work_1 .snapshot_portfolio {
     background: url('images/Snapshoot\ Portfolio.png');
     margin-top: -4%;
     margin-left: -4%;
   }
 
-  .work_2 .snapshot_portfolio_1{
+  .work_2 .snapshot_portfolio_1 {
     margin-left: 50%
   }
 
-  .work_2 .left_block{
+  .work_2 .left_block {
     margin-left: -2%;
   }
 
-  .work_3 .snapshot_portfolio{
+  .work_3 .snapshot_portfolio {
     margin-left: -4%;
     margin-top: -3%;
   }
-  .work_4 .snapshot_portfolio_1{
+  .work_4 .snapshot_portfolio_1 {
     margin-left: 50%;
     background: url('images/uber.png');
     margin-top: -4%;
   }
 
-  .work_4 .left_block{
+  .work_4 .left_block {
     margin-left: -2%;
   }
 
-  .card_works + .card_works{
+  .card_works + .card_works {
     margin-top: 10%;
   }
 
-  .works{
+  .works {
     margin-left: 10%;
   }
-  .about_header{
+  .about_header {
     margin-bottom: -0.1%;
   }
-  .about_description{
+  .about_description {
     margin-left: -58%;
     margin-top: 0.99%;
     width: 447px;
   }
 
-  .connect{
+  .connect {
     margin-top: -2%;
     margin-left: 14%;
   }
 
-  .about_myself ul{
+  .about_myself ul {
     gap:1%;
     margin-top : 1%;
     margin-left: 1%;
@@ -821,12 +821,12 @@ form textarea ::placeholder {
     padding: 0.2%;
   }
 
-  .languages{
+  .languages {
     margin-left: 87%;
     margin-top: -17%;
   }
 
-  .language_header p{
+  .language_header p {
     margin-right: 500px;
   }
   .language_list {
@@ -835,11 +835,11 @@ form textarea ::placeholder {
     width: 20%;
   }
 
-  .language_list + .language_list{
+  .language_list + .language_list {
     margin-right: 10%;
   }
 
-  .language_list div{
+  .language_list div {
     flex-direction: column;
     margin-right: 10%;
     margin-bottom: 20%;
@@ -847,13 +847,13 @@ form textarea ::placeholder {
     padding-bottom: 30%;
   }
 
-  .language_list div img{
+  .language_list div img {
     width: 48px;
     height: 48px;
     margin-top: -5%;
   }
 
-  .move_skills{
+  .move_skills {
     margin-left: -4%;
   }
 
@@ -861,11 +861,11 @@ form textarea ::placeholder {
     width: 390%;
   }
 
-  .text_arrow div{
+  .text_arrow div {
     margin-left: 331%;
   }
 
-  .text_arrow img{
+  .text_arrow img {
     margin-left: 320%;
   }
 
@@ -887,18 +887,18 @@ form textarea ::placeholder {
     margin-bottom: 1%;
   }
 
-  .contact_me input{
-    margin-left: 38%;
-    margin-bottom: 1%;
-  }
-  form textarea{
+  .contact_me input {
     margin-left: 38%;
     margin-bottom: 1%;
   }
 
-  .contact_me button{
+  form textarea {
     margin-left: 38%;
     margin-bottom: 1%;
   }
 
+  .contact_me button {
+    margin-left: 38%;
+    margin-bottom: 1%;
+  }
 }
