@@ -356,7 +356,7 @@ form ul {
 .see_project:hover {
   background-color: #6070ff;
   color: white;
-  }
+}
 
 .about_myself {
   background-color: white;
@@ -754,15 +754,16 @@ form textarea ::placeholder {
     padding: 0;
     margin: 0;
   }
-.tags {
-    width: 15%
+  .tags {
+    width: 15%;
   }
 
   .tags div {
     width: fit-content;
     block-size: fit-content;
-    white-space: nowrap; 
+    white-space: nowrap;
   }
+
   .left_block {
     width: 50%;
     margin-left: 54%;
@@ -789,7 +790,7 @@ form textarea ::placeholder {
     margin-top: -3%;
   }
 
-  .work_3 .see_project{
+  .work_3 .see_project {
     background-color: #6070ff;
     color: white;
   }
