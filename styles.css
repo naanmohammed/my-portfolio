@@ -884,15 +884,15 @@ form textarea ::placeholder {
   .text_arrow div {
     margin-left: 149%;
   }
-    
+
+  .text_arrow img {
+    margin-left: 130%;
+  }
+
   .language_list div img {
     width: 48px;
     height: 48px;
     margin-top: -5%;
-  }
-
-  .text_arrow img {
-    margin-left: 130%;
   }
 
   .move_skills {
