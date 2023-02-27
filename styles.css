@@ -779,7 +779,8 @@ form textarea ::placeholder {
   }
 
   .work_2 .snapshot_portfolio_1 {
-    margin-left: 50%;
+    margin-left: 48.5%;
+    width: auto;
   }
 
   .work_2 .left_block {
@@ -799,9 +800,10 @@ form textarea ::placeholder {
   }
 
   .work_4 .snapshot_portfolio_1 {
-    margin-left: 50%;
     background: url('images/uber.png');
-    margin-top: -4%;
+    margin-left: 48.5%;
+    width: auto;
+    margin-top: -3%;
   }
 
   .work_4 .left_block {
@@ -823,7 +825,8 @@ form textarea ::placeholder {
   .about_description {
     margin-left: -62.5%;
     margin-top: 0.99%;
-    width: 447px;
+    margin-bottom: 5%;
+    width: 24%;
   }
 
   .connect {
@@ -839,7 +842,7 @@ form textarea ::placeholder {
 
   .resume_button {
     width: fit-content;
-    margin-left: -77.5%;
+    margin-left: -73.5%;
     margin-top: 1%;
     margin-right: 0;
     padding: 0.7%;
@@ -853,7 +856,7 @@ form textarea ::placeholder {
 
   .languages {
     margin-left: 87%;
-    margin-top: -17%;
+    margin-top: -30%;
   }
 
   .language_header p {
@@ -884,16 +887,25 @@ form textarea ::placeholder {
     margin-top: -5%;
   }
 
+  .text_arrow img {
+    margin-left: 130%;
+  }
+
+  .text_arrow div {
+    margin-left: 149%;
+  }
+
   .move_skills {
-    margin-left: -4%;
+    margin-left: -2%;
   }
 
   .separator {
-    width: 390%;
+    width: 220%;
   }
 
   .about_myself {
     padding-bottom: 10%;
+    overflow-y: hidden;
   }
 
   .contact_me {
@@ -908,7 +920,7 @@ form textarea ::placeholder {
 
   .contact_me p {
     width: 41%;
-    margin-left: 30%;
+    margin-left: 33%;
     margin-bottom: 1%;
   }
 
@@ -925,7 +937,7 @@ form textarea ::placeholder {
   }
 
   .contact_me button {
-    margin-left: 47.5%;
+    margin-left: 49.5%;
     margin-bottom: 1%;
   }
 }
