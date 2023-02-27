@@ -881,6 +881,10 @@ form textarea ::placeholder {
     padding-bottom: 30%;
   }
 
+  .text_arrow div {
+    margin-left: 149%;
+  }
+  
   .language_list div img {
     width: 48px;
     height: 48px;
@@ -889,10 +893,6 @@ form textarea ::placeholder {
 
   .text_arrow img {
     margin-left: 130%;
-  }
-
-  .text_arrow div {
-    margin-left: 149%;
   }
 
   .move_skills {
