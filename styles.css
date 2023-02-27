@@ -730,7 +730,7 @@ form textarea ::placeholder {
   .card_works {
     box-sizing: border-box;
     display: grid;
-    width: 1156px;
+    width: 95%;
     height: 476px;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -748,7 +748,7 @@ form textarea ::placeholder {
 
   .snapshot_portfolio_1 {
     float: right;
-    width: 544px;
+    width: 518px;
     height: 448px;
     background-size: contain;
     padding: 0;
@@ -811,7 +811,7 @@ form textarea ::placeholder {
   }
 
   .works {
-    margin-left: 10%;
+    justify-content: center;
   }
 
   .about_header {
@@ -819,7 +819,7 @@ form textarea ::placeholder {
   }
 
   .about_description {
-    margin-left: -58%;
+    margin-left: -62.5%;
     margin-top: 0.99%;
     width: 447px;
   }
@@ -836,8 +836,8 @@ form textarea ::placeholder {
   }
 
   .resume_button {
-    width: 9.65%;
-    margin-left: -76%;
+    width: fit-content;
+    margin-left: -77.5%;
     margin-top: 1%;
     margin-right: 0;
     padding: 0.7%;
