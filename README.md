@@ -119,6 +119,11 @@ To run the project :
 - GitHub: [@uuukiiiyooo](https://github.com/uuukiiiyooo)
 - Twitter: [@uuukiiiyooo](https://twitter.com/uuukiiiyooo)
 
+👤 **Adeyemi Olusola**
+
+- GitHub: [@emarkees](https://github.com/emarkees)
+- Twitter: [@McEmarkees](https://twitter.com/McEmarkees)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
