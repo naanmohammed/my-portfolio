@@ -10,11 +10,13 @@ html {
   background: #f7f7f9;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 ul {
@@ -201,6 +203,7 @@ nav a {
 
 .about_myself {
   background-color: #fff;
+  border-top-right-radius: 80px;
 }
 
 .about_me_intro {
@@ -313,3 +316,4 @@ nav a {
   min-width: 100%;
   min-height: 100%;
   }
+
