@@ -204,6 +204,7 @@ nav a {
 .about_myself {
   background-color: #fff;
   border-top-right-radius: 80px;
+  
 }
 
 .about_me_intro {
@@ -252,7 +253,7 @@ nav a {
 }
 
 .languages {
-  padding: 0 2rem 4rem;
+  padding: 0 2rem 12rem;
 }
 
 .language_header {
@@ -317,8 +318,80 @@ nav a {
   min-height: 100%;
 }
 
-.contactMe {
+.contact_me {
+  background: #6070ff;
+  background-image: url('images/contact_form_bg.png');
+  background-position: right top 1.5rem;
+  background-repeat: no-repeat;
+  background-size: 60% 90%;
+  padding: 0 1.5rem;
+  border-top-left-radius: 5rem;
+  margin-top: -3rem;
 }
 
+.contact_me h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  padding: 7.5rem 0 0 2.5rem;
+}
+
+.contact_me p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #EBEBFF;
+  text-align: center;
+  padding: 1rem 0 2.25rem;
+}
+
+.contact_me form ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  border-radius: 8px;
+}
   
-  
+input {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 20.5rem;
+  height: 3rem;
+  font-size: 18px;
+  padding: 0 1rem;
+}
+
+textarea {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 20.5rem;
+  height: 8.75rem;
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px; 
+}
+
+form textarea ::placeholder {
+  color: #b3bac5;
+}
+
+form button {
+  background: #FFFFFF;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 0.75rem;
+  color: #396DF2;
+  margin-bottom: 2.75rem;
+  margin-top: 1rem;
+  justify-content: flex-start;
+}

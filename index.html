@@ -158,19 +158,17 @@
       </div>
     </div>
   </section>
-  <section class="contactMe">
+  <section class="contact_me">
     <h2>Contact me</h2>
     <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-    <form action="">
-      <input type="text" placeholder="Full Name" id="user_name" required maxlength="30">
-      <input type="email" id="email" name="user_mail" placeholder="Email Address" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-])*$/" required>
-      <textarea name="user_message" id="textarea" cols="30" rows="10" placeholder="Write your message here" required maxlength="500"></textarea>
-
-      <button 
-      type="submit" class="message_button">Get in Touch
-    </button>
+    <form action="https://formspree.io/f/xvonabyg">
+      <ul>
+        <li><input type="text" placeholder="Full Name" id="user_name" required maxlength="30"></li>
+        <li><input type="email" id="email" name="user_mail" placeholder="Email Address" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-])*$/" required></li>
+        <li><textarea name="user_message" id="textarea" cols="30" rows="10" placeholder="Write your message here" required maxlength="500"></textarea></li>
+      </ul>
+      <button>Get in touch</button>
     </form>
-    
   </section>
 </body>
 </html>
