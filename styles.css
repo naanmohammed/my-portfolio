@@ -355,13 +355,11 @@ input {
   font-size: 17px;
   line-height: 20px;
   border: 1px solid #cfd8dc;
-  border-radius: 8px;
   width: 20.5rem;
   height: 3rem;
   padding: 0 1rem;
   margin-bottom: 1rem;
 }
-
 
 textarea {
   border: 1px solid #cfd8dc;
