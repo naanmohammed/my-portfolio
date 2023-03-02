@@ -240,6 +240,10 @@ nav a {
   padding: 1.5rem 0 1.25rem 0 ;
 }
 
+.about_me_intro ul li:hover {
+  border: 0.1px solid #7f8cff;
+}
+
 .about_me_intro button {
   background: #FFFFFF;
   border: 1px solid #6070FF;
@@ -394,4 +398,19 @@ form button {
   margin-bottom: 2.75rem;
   margin-top: 1rem;
   justify-content: flex-start;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+button:active {
+  background-color: #2230D2;
+  color: white;
+}
+
+button:disabled {
+  background-color: #fff;
+  color: #5E6C84;
 }
