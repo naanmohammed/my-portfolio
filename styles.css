@@ -81,7 +81,7 @@ nav a {
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
-  color: #7F8cff;
+  color: #7f8cff;
 }
 
 .headline ul {
@@ -93,6 +93,7 @@ nav a {
 .work {
   padding: 1.5rem;
 }
+
 .works_list {
   background-color: white;
   display: flex;
@@ -161,7 +162,7 @@ nav a {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
-  background-color:#c1c7d0;
+  background-color: #c1c7d0;
   margin-top: 0.25rem;
 }
 
@@ -195,7 +196,7 @@ nav a {
   line-height: 24px;
   letter-spacing: 0.03em;
   padding: 0.75rem;
-  color: #396DF2;
+  color: #396df2;
 }
 
 .about_myself {
@@ -211,7 +212,7 @@ nav a {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   padding-bottom: 0.75rem;
 }
 
@@ -222,33 +223,19 @@ nav a {
   color: #344563;
   padding: 0 0 0.75rem;
 }
+
 .about_me_intro a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .about_me_intro ul {
   display: flex;
   gap: 1.5rem;
   padding: 1.5rem 0 1.25rem 0;
-}
-
-.contact_me form button {
-  background: #fff;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  padding: 0.75rem;
-  color: #396DF2;
-  margin-bottom: 2.75rem;
-  margin-top: 1rem;
-  justify-content: flex-start;
 }
 
 .about_me_intro button {
@@ -313,7 +300,7 @@ nav a {
 .skill_frameworks {
   display: flex;
   padding: 1.5rem 1.5rem 1.5rem 0;
-  border-bottom: 1px solid #DFE1E6;
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .skill_frameworks h3 {
@@ -352,7 +339,7 @@ nav a {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #EBEBFF;
+  color: #ebebff;
   text-align: center;
   padding: 1rem 0 2.25rem;
 }
@@ -408,4 +395,19 @@ button:disabled {
 
 .about_me_intro ul li:hover {
   border: 0.1px solid #7f8cff;
+}
+
+.contact_me form button {
+  background: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 0.75rem;
+  color: #396df2;
+  margin-bottom: 2.75rem;
+  margin-top: 1rem;
+  justify-content: flex-start;
 }
