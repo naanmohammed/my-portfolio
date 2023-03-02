@@ -37,11 +37,14 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+   - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -70,7 +73,9 @@ My-Portfolio is a project designed to setup a portfolio site using concepts stud
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+### Live Demo
+A live demo of this project can be found at :
+  https://naanmohammed.github.io/my-portfolio/
 
 <!-- GETTING STARTED -->
 
@@ -101,9 +106,28 @@ Install this project with:
 To run the project :
     Double click on index.html file
 
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters 
+```
 
 
+### Deployment
 
+You can deploy this project using:
+
+  -No Deployment required. Just run on browser.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Live Demo
+A live demo of this project can be found at :
+  https://naanmohammed.github.io/my-portfolio/
+  
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
