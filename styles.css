@@ -41,7 +41,7 @@ header nav h3 {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 nav a {
@@ -62,12 +62,10 @@ nav a {
 
 .headline h1 {
   font-weight: 700;
-  padding-top: 6rem;
-  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
-  padding : 6rem 1.5rem 0.75rem 0;
+  color: #172b4d;
+  padding: 6rem 1.5rem 0.75rem 0;
 }
 
 .headline p {
@@ -76,7 +74,6 @@ nav a {
   line-height: 24px;
   color: #344563;
   padding-bottom: 0.75rem;
-  
 }
 
 .headline a {
@@ -84,12 +81,12 @@ nav a {
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
-  color: #7F8CFF;
+  color: #7F8cff;
 }
 
 .headline ul {
   display: flex;
-  gap: 1.5rem;;
+  gap: 1.5rem;
   padding-top: 1.5rem;
 }
 
@@ -132,7 +129,7 @@ nav a {
 }
 
 .work_summary {
-  margin: 0rem 1rem 1rem 1rem;
+  margin: 0 1rem 1rem 1rem;
   min-width: 18.5rem;
 }
 
@@ -147,7 +144,7 @@ nav a {
   display: flex;
   gap: 0.75rem;
   font-weight: 600;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .subheader {
@@ -164,7 +161,7 @@ nav a {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
-  background-color:#C1C7D0;
+  background-color:#c1c7d0;
   margin-top: 0.25rem;
 }
 
@@ -180,9 +177,9 @@ nav a {
 }
 
 .tags li {
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
-  color: #6070FF;
+  color: #6070ff;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -190,8 +187,8 @@ nav a {
 }
 
 .work_summary button {
-  background: #FFFFFF;
-  border: 1px solid #6070FF;
+  background: #fff;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   font-weight: 500;
   font-size: 17px;
@@ -204,7 +201,6 @@ nav a {
 .about_myself {
   background-color: #fff;
   border-top-right-radius: 80px;
-  
 }
 
 .about_me_intro {
@@ -236,17 +232,13 @@ nav a {
 
 .about_me_intro ul {
   display: flex;
-  gap: 1.5rem;;
-  padding: 1.5rem 0 1.25rem 0 ;
+  gap: 1.5rem;
+  padding: 1.5rem 0 1.25rem 0;
 }
 
-.about_me_intro ul li:hover {
-  border: 0.1px solid #7f8cff;
-}
-
-.about_me_intro button {
-  background: #FFFFFF;
-  border: 1px solid #6070FF;
+.contact_me form button {
+  background: #fff;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   font-weight: 500;
   font-size: 17px;
@@ -254,6 +246,21 @@ nav a {
   letter-spacing: 0.03em;
   padding: 0.75rem;
   color: #396DF2;
+  margin-bottom: 2.75rem;
+  margin-top: 1rem;
+  justify-content: flex-start;
+}
+
+.about_me_intro button {
+  background: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 0.75rem;
+  color: #396df2;
 }
 
 .languages {
@@ -289,7 +296,7 @@ nav a {
 }
 
 .language_list li {
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   display: flex;
   padding: 0.5rem 0.75rem;
@@ -299,8 +306,8 @@ nav a {
   border-radius: 50%;
 }
 
-.language_list p{
-  padding: 1rem ;
+.language_list p {
+  padding: 1rem;
 }
 
 .skill_frameworks {
@@ -357,7 +364,7 @@ nav a {
   gap: 1rem;
   border-radius: 8px;
 }
-  
+
 input {
   font-weight: 400;
   font-size: 17px;
@@ -366,7 +373,6 @@ input {
   border-radius: 8px;
   width: 20.5rem;
   height: 3rem;
-  font-size: 18px;
   padding: 0 1rem;
 }
 
@@ -378,26 +384,11 @@ textarea {
   padding: 0.5rem 1rem;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px; 
+  line-height: 24px;
 }
 
 form textarea ::placeholder {
   color: #b3bac5;
-}
-
-form button {
-  background: #FFFFFF;
-  border: 1px solid #6070FF;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  padding: 0.75rem;
-  color: #396DF2;
-  margin-bottom: 2.75rem;
-  margin-top: 1rem;
-  justify-content: flex-start;
 }
 
 button:hover {
@@ -406,11 +397,15 @@ button:hover {
 }
 
 button:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
   color: white;
 }
 
 button:disabled {
   background-color: #fff;
-  color: #5E6C84;
+  color: #5e6c84;
+}
+
+.about_me_intro ul li:hover {
+  border: 0.1px solid #7f8cff;
 }
