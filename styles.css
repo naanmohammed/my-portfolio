@@ -52,6 +52,11 @@ nav a {
   display: none;
 }
 
+.desktop_nav {
+  -webkit-animation: spin 5s infinite;
+  animation: spin 5s infinite;
+}
+
 .headline {
   background-color: white;
   display: flex;
