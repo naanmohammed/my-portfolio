@@ -26,13 +26,13 @@ ul {
 header nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   padding: 1.5rem;
   background-color: white;
 }
 
 header nav h3 {
   margin-top: 0;
+  margin-right: 13rem;
   width: 76px;
   height: 20px;
   font-weight: 700;
@@ -46,6 +46,10 @@ header nav h3 {
 
 nav a {
   text-decoration: none;
+}
+
+.desktop_nav {
+  display: none;
 }
 
 .headline {
@@ -104,7 +108,6 @@ nav a {
 }
 
 .work_image {
-  background-repeat: no-repeat;
   background-size: contain;
   min-width: 18.5rem;
   min-height: 13.75rem;
@@ -114,18 +117,22 @@ nav a {
 
 .work_1 {
   background: url('images/mobile_work_image1.jpg');
+  background-repeat: no-repeat;
 }
 
 .work_2 {
   background: url('images/mobile_work_image2.png');
+  background-repeat: no-repeat;
 }
 
 .work_3 {
   background: url('images/mobile_work_image3.png');
+  background-repeat: no-repeat;
 }
 
 .work_4 {
   background: url('images/mobile_work_image4.jpg');
+  background-repeat: no-repeat;
   min-width: 14.5rem;
 }
 
@@ -410,4 +417,83 @@ button:disabled {
   margin-bottom: 2.75rem;
   margin-top: 1rem;
   justify-content: flex-start;
+}
+
+
+@media only screen and (min-width: 768px) { 
+  section header nav {
+    padding-left: 15rem;
+  }
+
+  .mobile_nav {
+    display: none;
+  }
+
+  header nav ul {
+    display: flex;
+    gap: 2rem;
+    padding-left: 60%;
+  }
+  .desktop_nav {
+    display:block;
+    color: #344563;
+  }
+  .headline {
+    background: url('images/pc-page1-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    border-top: 2rem solid #fff;
+    border-left: 2.25rem solid #fff;
+    border-bottom: 5rem solid #fff;
+    padding-bottom: 15rem;
+  }
+
+  .headline h1 {
+    padding: 25rem 16.25rem 0.75rem 16.25rem;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .headline h1 span {
+    display: none;
+  }
+  .headline h1::before {
+    content: "I’m Naan. \a Glad to see you!";
+    white-space: pre-wrap;
+  }
+
+  .headline p {
+    padding: 0.75rem 40.25rem 0.75rem 16.25rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .headline .lets_connect {
+    padding: 0.75rem 16.25rem 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .headline ul {
+    padding: 0.75rem 16.25rem 0.5rem;
+  }
+
+  .works_list {
+    margin: 8.875rem;
+    display: flex;
+    flex-direction: row;
+    min-height: 31rem;
+    width: 72.25rem;
+  }
+
+  .work_image {
+    background-size: cover;
+    min-width: 34rem;
+    min-height: 13.75rem;
+    border-radius: 16px;
+    margin: 1rem 1rem 0.75rem 1rem;
+  }
 }
