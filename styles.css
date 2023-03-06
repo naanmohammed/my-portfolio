@@ -418,11 +418,6 @@ button:hover {
   color: white;
 }
 
-.contact_me button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
 button:active {
   background-color: #2230d2;
   color: white;
@@ -452,6 +447,11 @@ button:disabled {
   margin-bottom: 2.75rem;
   margin-top: 1rem;
   justify-content: flex-start;
+}
+
+.contact_me button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {
