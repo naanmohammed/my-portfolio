@@ -50,9 +50,6 @@ nav a {
 
 .desktop_nav {
   display: none;
-}
-
-.desktop_nav {
   -webkit-animation: spin 5s infinite;
   animation: spin 5s infinite;
 }
@@ -72,7 +69,7 @@ nav a {
     -ms-transform: rotateY(0deg);
     transform: rotateY(0deg);
   }
-  
+
   to {
     -moz-transform: rotateY(-360deg);
     -ms-transform: rotateY(-360deg);
@@ -451,9 +448,7 @@ button:disabled {
   justify-content: flex-start;
 }
 
-
 @media only screen and (min-width: 768px) { 
-
   section header nav {
     padding: 1% 10%;
     max-width: 100%;
@@ -472,10 +467,12 @@ button:disabled {
     display: flex;
     gap: 2rem;
   }
+
   .desktop_nav {
-    display:block;
+    display: block;
     color: #344563;
   }
+
   .headline {
     background: url('images/pc-page1-bg.png');
     background-repeat: no-repeat;
@@ -493,9 +490,11 @@ button:disabled {
     font-size: 300%;
     line-height: 100%;
   }
+
   .headline h1 span {
     display: none;
   }
+
   .headline h1::before {
     content: "I’m Naan. \a Glad to see you!";
     white-space: pre-wrap;
@@ -507,7 +506,7 @@ button:disabled {
     font-size: 125%;
     line-height: 100%;
   }
-  
+
   .headline .lets_connect {
     padding: 1% 15% 0 15%;
     font-weight: 500;
@@ -530,13 +529,14 @@ button:disabled {
     min-height: 33rem;
     width: 85%;
   }
+
   .work_image_container {
     min-height: 100%;
     min-width: 50%;
   }
 
   .work_image_reversed {
-    order: 1
+    order: 1;
   }
 
   .work_image {
@@ -556,19 +556,19 @@ button:disabled {
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  
+
   .work_2 {
     background: url('images/desktop_work_image2.png');
     background-repeat: no-repeat;
     background-size: 98% 100%;
   }
-  
+
   .work_3 {
     background: url('images/desktop_work_image3.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  
+
   .work_4 {
     background: url('images/desktop_work_image4.png');
     background-repeat: no-repeat;
@@ -576,35 +576,38 @@ button:disabled {
     background-size: 100% 100%;
   }
 
-  .work_2_summary .ruby_tag{
+  .work_2_summary .ruby_tag {
     display: block;
   }
 
-  .work_3_summary .ruby_tag{
+  .work_3_summary .ruby_tag {
     display: block;
   }
 
-  .work_4_summary .ruby_tag{
+  .work_4_summary .ruby_tag {
     display: block;
   }
-    
-  .work_2_summary p span{
+
+  .work_2_summary p span {
     display: none;
   }
+
   .work_2_summary p::before {
     content: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.";
   }
 
-  .work_3_summary p span{
+  .work_3_summary p span {
     display: none;
   }
+
   .work_3_summary p::before {
     content: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.";
   }
 
-  .work_4_summary p span{
+  .work_4_summary p span {
     display: none;
   }
+
   .work_4_summary p::before {
     content: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.";
   }
@@ -633,6 +636,7 @@ button:disabled {
   .about_me_intro button {
     margin-bottom: 10rem;
   }
+
   .languages {
     min-width: fit-content;
     padding-top: 2rem;
@@ -661,11 +665,12 @@ button:disabled {
     padding: 0.5rem 0.25rem;
   }
 
-  .contact_me_container{
+  .contact_me_container {
     background: #6070ff;
     border-top-left-radius: 80px;
     margin-top: -10rem;
   }
+
   .contact_me {
     background-image: url('images/desktop_contact_form_background.png');
     background-repeat: no-repeat;
@@ -680,6 +685,7 @@ button:disabled {
     padding-left: 0;
     margin-top: 5.5rem;
   }
+
   .contact_me p {
     max-width: 40%;
     justify-content: center;
