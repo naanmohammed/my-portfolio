@@ -26,13 +26,13 @@ ul {
 header nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   padding: 1.5rem;
   background-color: white;
 }
 
 header nav h3 {
   margin-top: 0;
+  margin-right: 13rem;
   width: 76px;
   height: 20px;
   font-weight: 700;
@@ -46,6 +46,36 @@ header nav h3 {
 
 nav a {
   text-decoration: none;
+}
+
+.desktop_nav {
+  display: none;
+  -webkit-animation: spin 5s infinite;
+  animation: spin 5s infinite;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
 }
 
 .headline {
@@ -104,7 +134,6 @@ nav a {
 }
 
 .work_image {
-  background-repeat: no-repeat;
   background-size: contain;
   min-width: 18.5rem;
   min-height: 13.75rem;
@@ -114,18 +143,22 @@ nav a {
 
 .work_1 {
   background: url('images/mobile_work_image1.jpg');
+  background-repeat: no-repeat;
 }
 
 .work_2 {
   background: url('images/mobile_work_image2.png');
+  background-repeat: no-repeat;
 }
 
 .work_3 {
   background: url('images/mobile_work_image3.png');
+  background-repeat: no-repeat;
 }
 
 .work_4 {
   background: url('images/mobile_work_image4.jpg');
+  background-repeat: no-repeat;
   min-width: 14.5rem;
 }
 
@@ -175,6 +208,10 @@ nav a {
 .tags {
   display: flex;
   padding-bottom: 1.25rem;
+}
+
+.ruby_tag {
+  display: none;
 }
 
 .tags li {
@@ -410,4 +447,273 @@ button:disabled {
   margin-bottom: 2.75rem;
   margin-top: 1rem;
   justify-content: flex-start;
+}
+
+@media only screen and (min-width: 768px) {
+  section header nav {
+    padding: 1% 10%;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+
+  header nav h3 {
+    margin-right: 0;
+  }
+
+  .mobile_nav {
+    display: none;
+  }
+
+  header nav ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .desktop_nav {
+    display: block;
+    color: #344563;
+  }
+
+  .headline {
+    background: url('images/pc-page1-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #fff;
+    border-top: 2rem solid #fff;
+    border-left: 2.25rem solid #fff;
+    border-bottom: 5rem solid #fff;
+    padding-bottom: 15rem;
+  }
+
+  .headline h1 {
+    padding: 10rem 4% 0 15%;
+    font-weight: 700;
+    font-size: 300%;
+    line-height: 100%;
+  }
+
+  .headline h1 span {
+    display: none;
+  }
+
+  .headline h1::before {
+    content: "I’m Naan. \a Glad to see you!";
+    white-space: pre-wrap;
+  }
+
+  .headline p {
+    padding: 1% 15% 0 15%;
+    font-weight: 400;
+    font-size: 125%;
+    line-height: 100%;
+  }
+
+  .headline .lets_connect {
+    padding: 1% 15% 0 15%;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 150%;
+  }
+
+  .headline ul {
+    padding: 1% 15% 0 15%;
+  }
+
+  .work {
+    padding: 2.5%;
+  }
+
+  .works_list {
+    margin-left: 7.5%;
+    display: flex;
+    flex-direction: row;
+    min-height: 33rem;
+    width: 85%;
+  }
+
+  .work_image_container {
+    min-height: 100%;
+    min-width: 50%;
+  }
+
+  .work_image_reversed {
+    order: 1;
+  }
+
+  .work_image {
+    max-width: 100%;
+    min-height: 90%;
+    border-radius: 16px;
+    margin: 1rem 1.25rem 0.75rem 1rem;
+  }
+
+  .work_summary {
+    margin-top: 1.5rem;
+    min-width: 40%;
+  }
+
+  .work_1 {
+    background: url('images/desktop_work_image1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .work_2 {
+    background: url('images/desktop_work_image2.png');
+    background-repeat: no-repeat;
+    background-size: 98% 100%;
+  }
+
+  .work_3 {
+    background: url('images/desktop_work_image3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .work_4 {
+    background: url('images/desktop_work_image4.png');
+    background-repeat: no-repeat;
+    order: 1;
+    background-size: 100% 100%;
+  }
+
+  .work_2_summary .ruby_tag {
+    display: block;
+  }
+
+  .work_3_summary .ruby_tag {
+    display: block;
+  }
+
+  .work_4_summary .ruby_tag {
+    display: block;
+  }
+
+  .work_2_summary p span {
+    display: none;
+  }
+
+  .work_2_summary p::before {
+    content: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.";
+  }
+
+  .work_3_summary p span {
+    display: none;
+  }
+
+  .work_3_summary p::before {
+    content: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.";
+  }
+
+  .work_4_summary p span {
+    display: none;
+  }
+
+  .work_4_summary p::before {
+    content: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.";
+  }
+
+  .tags li {
+    font-size: 9.5px;
+  }
+
+  .about_myself {
+    display: flex;
+    min-width: 100%;
+    padding-top: 3.125rem;
+  }
+
+  .about_me_intro {
+    width: 30%;
+    margin-left: 7.5%;
+    padding: 0 0.5rem 1.5rem;
+  }
+
+  .about_me_intro ul {
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+  }
+
+  .about_me_intro button {
+    margin-bottom: 10rem;
+  }
+
+  .languages {
+    min-width: fit-content;
+    padding-top: 2rem;
+  }
+
+  .languages h3 {
+    min-width: 28rem;
+  }
+
+  .language_list {
+    flex-direction: row;
+  }
+
+  .language_list li {
+    display: flex;
+    flex-direction: column;
+    width: 7.625rem;
+  }
+
+  .language_list li img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .contact_me p {
+    max-width: 40%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+  }
+
+  .language_list li p {
+    padding: 0.5rem 0.25rem;
+  }
+
+  .contact_me_container {
+    background: #6070ff;
+    border-top-left-radius: 80px;
+    margin-top: -10rem;
+  }
+
+  .contact_me {
+    background-image: url('images/desktop_contact_form_background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 97.5%;
+    margin: -3rem 5rem;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 3rem solid #6070ff;
+  }
+
+  .contact_me h2 {
+    padding-left: 0;
+    margin-top: 5.5rem;
+  }
+
+  .contact_me input {
+    min-width: 40%;
+    max-width: 41%;
+    justify-content: center;
+    margin-left: 30%;
+    border-radius: 0;
+  }
+
+  .contact_me textarea {
+    min-width: 40%;
+    max-width: 41%;
+    justify-content: center;
+    margin-left: 30%;
+    border-radius: 0;
+  }
+
+  .contact_me form button {
+    min-width: 12%;
+    max-width: 23%;
+    margin-left: 42%;
+    margin-right: 44%;
+  }
 }
