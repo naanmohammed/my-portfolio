@@ -58,6 +58,7 @@ nav a {
   from {
     -webkit-transform: rotateY(0deg);
   }
+
   to {
     -webkit-transform: rotateY(-360deg);
   }
@@ -448,7 +449,7 @@ button:disabled {
   justify-content: flex-start;
 }
 
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
   section header nav {
     padding: 1% 10%;
     max-width: 100%;
@@ -661,6 +662,13 @@ button:disabled {
     height: 48px;
   }
 
+  .contact_me p {
+    max-width: 40%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+  }
+
   .language_list li p {
     padding: 0.5rem 0.25rem;
   }
@@ -684,13 +692,6 @@ button:disabled {
   .contact_me h2 {
     padding-left: 0;
     margin-top: 5.5rem;
-  }
-
-  .contact_me p {
-    max-width: 40%;
-    justify-content: center;
-    text-align: center;
-    margin-left: 30%;
   }
 
   .contact_me input {
