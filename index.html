@@ -9,7 +9,7 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 <body>
-  <section>
+  <section class="landing_page">
     <header>
       <nav>
         <a href="index.html"><h3>My Logo</h3></a>
@@ -40,7 +40,7 @@
   </section>
   <section class="work">
     <div class="works_list">
-      <div class="work_image work_1"></div>
+      <div class="work_image_container"><div class="work_image work_1"></div></div>
       <div class="work_summary">
         <h1>Tonic</h1>
         <ul class="subheader">
@@ -62,8 +62,8 @@
       </div>
     </div>
     <div class="works_list">
-      <div class="work_image work_2" ></div>
-      <div class="work_summary">
+      <div class="work_image_container work_image_reversed"><div class="work_image work_2"></div></div>
+      <div class="work_summary work_2_summary">
         <h1>Multi-Post <br> Stories</h1>
         <ul class="subheader">
           <li class="work_client">CANOPY</li>
@@ -72,20 +72,21 @@
           <li class="work_bullet"></li>
           <li>2015</li>
         </ul>
-        <p>A daily selection of privately personalized reads;
-           no accounts or sign-ups required.
+        <p><span>A daily selection of privately personalized reads;
+           no accounts or sign-ups required.</span>
         </p>
         <ul class="tags">
           <li>html</li>
           <li>css</li>
+          <li class="ruby_tag">Ruby on rails</li>
           <li>javaScript</li>
         </ul>
         <button>See Project</button>
       </div>
     </div>
     <div class="works_list">
-      <div class="work_image work_3" ></div>
-      <div class="work_summary">
+      <div class="work_image_container"><div class="work_image work_3"></div></div>
+      <div class="work_summary work_3_summary">
         <h1>Tonic</h1>
         <ul class="subheader">
           <li class="work_client">CANOPY</li>
@@ -94,20 +95,21 @@
           <li class="work_bullet"></li>
           <li>2015</li>
         </ul>
-        <p>A daily selection of privately personalized reads;
-           no accounts or sign-ups required.
+        <p><span>A daily selection of privately personalized reads;
+           no accounts or sign-ups required.</span>
         </p>
         <ul class="tags">
           <li>html</li>
           <li>css</li>
+          <li class="ruby_tag">Ruby on rails</li>
           <li>javaScript</li>
         </ul>
         <button>See Project</button>
       </div>
     </div>
     <div class="works_list">
-      <div class="work_image work_4" ></div>
-      <div class="work_summary">
+      <div class="work_image_container work_image_reversed"><div class="work_image work_4"></div></div>
+      <div class="work_summary work_4_summary">
         <h1>Multi-Post <br> Stories</h1>
         <ul class="subheader">
           <li class="work_client">CANOPY</li>
@@ -116,12 +118,13 @@
           <li class="work_bullet"></li>
           <li>2015</li>
         </ul>
-        <p>A daily selection of privately personalized reads;
-           no accounts or sign-ups required.
+        <p><span>A daily selection of privately personalized reads;
+           no accounts or sign-ups required.</span>
         </p>
         <ul class="tags">
           <li>html</li>
           <li>css</li>
+          <li class="ruby_tag">Ruby on rails</li>
           <li>javaScript</li>
         </ul>
         <button>See Project</button>
@@ -163,15 +166,17 @@
       </div>
     </div>
   </section>
-  <section class="contact_me">
-    <h2>Contact me</h2>
-    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-    <form action="https://formspree.io/f/xvonabyg" method="POST">
-      <input type="text" placeholder="Full Name" id="user_name" required maxlength="30">
-      <input type="email" id="email" name="user_mail" placeholder="Email Address" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-])*$/" required>
-      <textarea name="user_message" id="textarea" cols="30" rows="10" placeholder="Write your message here" required maxlength="500"></textarea>
-      <button>Get in touch</button>
-    </form>
+  <section class="contact_me_container">
+    <div class="contact_me">
+      <h2>Contact me</h2>
+      <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+      <form action="https://formspree.io/f/xvonabyg" method="POST">
+        <input type="text" placeholder="Full Name" id="user_name" required maxlength="30">
+        <input type="email" id="email" name="user_mail" placeholder="Email Address" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-])*$/" required>
+        <textarea name="user_message" id="textarea" cols="30" rows="10" placeholder="Write your message here" required maxlength="500"></textarea>
+        <button>Get in touch</button>
+      </form>
+    </div>
   </section>
 </body>
 </html>
