@@ -59,16 +59,18 @@ After you're finished please remove all the comments and instructions!
 
 My-Portfolio is a project designed to setup a portfolio site using concepts studied on Module 1's first block.
 
-## 🛠 Built With <a name="built-with"></a> HTML and CSS
+## 🛠 Built With <a name="built-with"></a> 
+HTML, CSS, and GitHub pages
 
-### Tech Stack <a name="tech-stack"></a> HTML and CSS
+### Tech Stack <a name="tech-stack"></a> 
+HTML and CSS
 
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Displays 'My Portfolio site' **
+- Displays 'My Portfolio site' 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
