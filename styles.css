@@ -82,7 +82,7 @@ nav a {
   background-color: white;
   display: flex;
   flex-direction: column;
-  background-image: url("images/mobile-page1-bg.png");
+  background-image: url('images/mobile-page1-bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   border-bottom-left-radius: 80px;
@@ -454,6 +454,10 @@ button:disabled {
   color: white;
 }
 
+label {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   section header nav {
     padding: 1% 10%;
@@ -502,7 +506,7 @@ button:disabled {
   }
 
   .headline h1::before {
-    content: "I’m Naan. \a Glad to see you!";
+    content: 'I’m Naan. \a Glad to see you!';
     white-space: pre-wrap;
   }
 
@@ -599,7 +603,7 @@ button:disabled {
   }
 
   .work_2_summary p::before {
-    content: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.";
+    content: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.';
   }
 
   .work_3_summary p span {
@@ -615,7 +619,7 @@ button:disabled {
   }
 
   .work_4_summary p::before {
-    content: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.";
+    content: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.';
   }
 
   .tags li {
