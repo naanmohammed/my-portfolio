@@ -8,6 +8,10 @@ button.addEventListener("click", function() {
   page.style.display = "block";
 });
 
+close_button.addEventListener("click", function() {
+  page.style.display = "none";
+});
+
 lis.forEach(li => {
   li.addEventListener('click', function() {
     const sectionId = this.getAttribute('data-section');
@@ -18,4 +22,6 @@ lis.forEach(li => {
     page.style.display = 'none';
   });
 });
+
+
 
