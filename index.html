@@ -13,7 +13,15 @@
     <header>
       <nav>
         <a href="index.html"><h3>My Logo</h3></a>
-        <a class="mobile_nav" href="index.html"><img src="images/Icon - Menu.png" alt="menu logo"></a>
+        <a class="mobile_nav" id="my_button" href="index.html"><img src="images/Icon - Menu.png" alt="menu logo"></a>
+        <div id="translucent_page">
+          <span id="close_button">x</span>
+          <ul>
+            <li data-section="Portfolio">Portfolio</li>
+            <li data-section="About">About</li>
+            <li data-section="Contact">Contact</li>
+          </ul>
+        </div>
         <ul>
           <li><a class="desktop_nav" href="#">Portfolio</a></li>
           <li><a class="desktop_nav" href="#">About</a></li>
@@ -38,7 +46,7 @@
       </ul>
     </div>
   </section>
-  <section class="work">
+  <section id="Portfolio" class="work">
     <div class="works_list">
       <div class="work_image_container"><div class="work_image work_1"></div></div>
       <div class="work_summary">
@@ -131,7 +139,7 @@
       </div>
     </div>
   </section>
-  <section class="about_myself">
+  <section id="About" class="about_myself">
     <div class="about_me_intro">
       <h2>About <br>Myself</h2>
       <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work 
@@ -166,7 +174,7 @@
       </div>
     </div>
   </section>
-  <section class="contact_me_container">
+  <section id="Contact" class="contact_me_container">
     <div class="contact_me">
       <h2>Contact me</h2>
       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -181,5 +189,6 @@
       </form>
     </div>
   </section>
+  <script src="index.js"></script>
 </body>
 </html>
