@@ -60,6 +60,23 @@ nav a {
   padding: 7% 5% 5% 0;
 }
 
+#translucent_page ul {
+  color: white;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+#translucent_page li {
+  padding-bottom: 5%;
+  font-weight: 700;
+}
+#translucent_page span {
+  color: white;
+  margin-left: 90%;
+  top: 100px;
+  font-size: x-large;
+}
+
 .desktop_nav {
   display: none;
   -webkit-animation: spin 5s infinite;
