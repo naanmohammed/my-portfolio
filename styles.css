@@ -648,7 +648,7 @@ label {
   }
 
   .languages {
-    min-width: fit-content;
+    /* min-width: fit-content; */
     padding-top: 2rem;
   }
 
