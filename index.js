@@ -3,16 +3,16 @@ const page = document.getElementById('translucent_page');
 const closeButton = document.getElementById('close_button');
 const lis = document.querySelectorAll('#translucent_page li');
 
-button.addEventListener('click', function handleTranslucentPage(event) {
+button.addEventListener('click', (event) => {
   event.preventDefault();
   page.style.display = 'block';
 });
 
-closeButton.addEventListener('click', function handleButtonClick() {
+closeButton.addEventListener('click', () => {
   page.style.display = 'none';
 });
 
-lis.forEach(li => {
+lis.forEach((li) => {
   li.addEventListener('click', function handleLiClick() {
     const sectionId = this.getAttribute('data-section');
     const section = document.getElementById(sectionId);
