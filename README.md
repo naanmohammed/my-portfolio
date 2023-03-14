@@ -125,10 +125,6 @@ You can deploy this project using:
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Live Demo
-A live demo of this project can be found at :
-  https://naanmohammed.github.io/my-portfolio/
   
 <!-- AUTHORS -->
 
@@ -149,6 +145,10 @@ A live demo of this project can be found at :
 
 - GitHub: [@emarkees](https://github.com/emarkees)
 - Twitter: [@McEmarkees](https://twitter.com/McEmarkees)
+
+👤 **Abiola Ariobeke**
+
+- GitHub: [@emarkees](https://github.com/abiola-arobieke)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

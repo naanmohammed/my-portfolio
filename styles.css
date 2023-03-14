@@ -48,6 +48,25 @@ nav a {
   text-decoration: none;
 }
 
+#translucent_page {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 61, 223, 0.8);
+  backdrop-filter: blur(7px) brightness(1);
+  padding: 7% 5% 5% 0;
+}
+
+#translucent_page span {
+  color: white;
+  margin-left: 90%;
+  top: 100px;
+  font-size: x-large;
+}
+
 .desktop_nav {
   display: none;
   -webkit-animation: spin 5s infinite;
@@ -275,6 +294,13 @@ nav a {
   padding: 1.5rem 0 1.25rem 0;
 }
 
+#translucent_page ul {
+  color: white;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
 .about_me_intro button {
   background: #fff;
   border: 1px solid #6070ff;
@@ -430,6 +456,11 @@ button:disabled {
 
 .about_me_intro ul li:hover {
   border: 0.1px solid #7f8cff;
+}
+
+#translucent_page li {
+  padding-bottom: 5%;
+  font-weight: 700;
 }
 
 .contact_me form button {
@@ -648,7 +679,7 @@ label {
   }
 
   .languages {
-    min-width: fit-content;
+    /* min-width: fit-content; */
     padding-top: 2rem;
   }
 
