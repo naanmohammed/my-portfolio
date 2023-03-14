@@ -450,7 +450,7 @@ button:active {
 }
 
 button:disabled {
-  background-color: #fff;
+  background-color:#fff;
   color: #5e6c84;
 }
 
