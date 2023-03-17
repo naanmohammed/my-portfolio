@@ -489,6 +489,107 @@ label {
   display: none;
 }
 
+
+
+#popup-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 999;
+  padding-top: 1%;
+  background-color: rgba(	193, 199, 208, 0.8);
+  backdrop-filter: blur(7px) brightness(1);
+}
+
+#popup-mobile-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  height: 95%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#popup-mobile-image {
+  max-height: 40%;
+}
+
+#popup-mobile-description1 {
+  display: none;
+}
+
+#popup-mobile-image {
+  padding-bottom: 2rem ;
+}
+
+#popup-mobile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+#popup-mobile-tag-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+#popup-mobile-description {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 0.5rem;
+}
+
+#popup-mobile-tag-buttons {
+  display: flex;
+}
+
+#popup-mobile-summary {
+  font-size: small;
+  word-spacing: 1px;
+}
+
+#popup-mobile-technologies {
+  display: flex;
+  gap: 1rem;
+  height: fit-content;
+  margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.popup-mobile-btn {
+  background: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  padding: 0.5rem;
+  color: #396df2;
+  margin-top: 1rem;
+  }
+
+#popup-mobile-btn1 {
+  margin-right: 0.4rem;
+}
+
+#popup-mobile-btn img {
+  margin-right: 0.25rem;
+  }
+
+
+
 @media only screen and (min-width: 768px) {
   section header nav {
     padding: 1% 10%;
@@ -522,11 +623,11 @@ label {
     border-top: 2rem solid #fff;
     border-left: 2.25rem solid #fff;
     border-bottom: 5rem solid #fff;
-    padding-bottom: 15rem;
+    padding-bottom: 17rem;
   }
 
   .headline h1 {
-    padding: 10rem 4% 0 15%;
+    padding: 17rem 4% 0 15%;
     font-weight: 700;
     font-size: 300%;
     line-height: 100%;
@@ -755,5 +856,137 @@ label {
     max-width: 23%;
     margin-left: 42%;
     margin-right: 44%;
+  }
+
+  #popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 999;
+    padding-top: 1%;
+    background-color: rgba(	193, 199, 208, 0.8);
+    backdrop-filter: blur(7px) brightness(1);
+  }
+  
+  #popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  .popup-image {
+    width: 100%;
+    height: 20%;
+  }
+  #popup-description1 {
+    margin-bottom: 1.5rem;
+  }
+
+  #popup-image {
+    padding-bottom: 2rem ;
+  }
+
+  #popup-details {
+    display: flex;
+  }
+
+  #popup-tag-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #popup-description {
+    max-width: 75%;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+  }
+  
+  #popup_tag-buttons {
+    max-width: 30%;
+  }
+  #popup-summary {
+    margin-bottom: 2rem;
+    font-size: small;
+    word-spacing: 5px;
+  }
+
+  #popup-technologies {
+    display: flex;
+    gap: 1rem;
+    height: fit-content;
+    margin-bottom: 0.5rem;
+  }
+
+  .popup-btn {
+    background: #fff;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 0.5rem;
+    color: #396df2;
+    margin-top: 1rem;
+    }
+
+  #popup-btn1 {
+    margin-right: 0.4rem;
+  }
+
+  #popup-btn img {
+    margin-right: 0.25rem;
+    }
+  #popup-technologies li {
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    list-style-type: none;
+  }
+
+  .popup-technologies_2 {
+    display: flex;
+    gap: 1rem;
+    height: fit-content;
+    margin-bottom: 0.5rem;
+  }
+
+  .popup-technologies_2 li {
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    list-style-type: none;
+  }
+
+  #close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
   }
 }
