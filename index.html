@@ -66,7 +66,7 @@
           <li>css</li>
           <li>javaScript</li>
         </ul>
-        <button>See Project</button>
+        <button onclick="showPopup(0)">See Project</button>
       </div>
     </div>
     <div class="works_list">
@@ -89,7 +89,7 @@
           <li class="ruby_tag">Ruby on rails</li>
           <li>javaScript</li>
         </ul>
-        <button>See Project</button>
+        <button onclick="showPopup(1)">See Project</button>
       </div>
     </div>
     <div class="works_list">
@@ -112,7 +112,7 @@
           <li class="ruby_tag">Ruby on rails</li>
           <li>javaScript</li>
         </ul>
-        <button>See Project</button>
+        <button onclick="showPopup(2)">See Project</button>
       </div>
     </div>
     <div class="works_list">
@@ -135,10 +135,66 @@
           <li class="ruby_tag">Ruby on rails</li>
           <li>javaScript</li>
         </ul>
-        <button>See Project</button>
+        <button onclick="showPopup(3)">See Project</button>
       </div>
     </div>
   </section>
+  <div id="popup">
+		<div id="popup-content">
+			<h2 id="popup-title"></h2>
+      <span id="close-popup" onclick="hidePopup()">&times;</span>
+      <p id="popup-summary"></p>
+      <img id="popup-image"/>
+      <div id="popup-details">
+        <div id="popup-description">
+          <div id="popup-description1"></div>
+          <p id="popup-description2"></p>
+        </div>
+        <div id="popup_tag-buttons">
+          <ul id="popup-technologies">
+            <li id="popup-tag1"></li>
+            <li id="popup-tag2"></li>
+            <li id="popup-tag3"></li>
+          </ul>
+          <ul class="popup-technologies_2">
+            <li id="popup-tag4"></li>
+            <li id="popup-tag5"></li>
+          </ul>
+          <hr/>
+          <button class="popup-btn" id="popup-btn1" onclick="liveLink()">See live <img src="images/live.png"></button>
+          <button class="popup-btn" onclick="sourceLink()">See source <img src="images/source.png"></button>
+        </div>
+      </div>
+		</div>
+	</div>
+  <div id="popup-mobile">
+		<div id="popup-mobile-content">
+			<h2 id="popup-mobile-title"></h2>
+      <span id="close-popup-mobile" onclick="hidePopup()">&times;</span>
+      <p id="popup-mobile-summary"></p>
+      <img id="popup-mobile-image"/>
+      <div id="popup-mobile-details">
+        <div id="popup-mobile-description">
+          <div id="popup-mobile-description1"></div>
+          <p id="popup-mobile-description2"></p>
+        </div>
+        <div id="popup-mobile_tag-buttons">
+          <ul id="popup-mobile-technologies">
+            <li id="popup-mobile-tag1"></li>
+            <li id="popup-mobile-tag2"></li>
+            <li id="popup-mobile-tag3"></li>
+          </ul>
+          <ul class="popup-mobile-technologies_2">
+            <li id="popup-mobile-tag4"></li>
+            <li id="popup-mobile-tag5"></li>
+          </ul>
+          <hr/>
+          <button class="popup-mobile-btn" id="popup-mobile-btn1" onclick="liveLink()">See live <img src="images/live.png"></button>
+          <button class="popup-mobile-btn" onclick="sourceLink()">See source <img src="images/source.png"></button>
+        </div>
+      </div>
+		</div>
+	</div>
   <section id="About" class="about_myself">
     <div class="about_me_intro">
       <h2>About <br>Myself</h2>
