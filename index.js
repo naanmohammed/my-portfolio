@@ -86,7 +86,7 @@ const projects = [
 
 function showPopup(index) {
   const project = projects[index];
-  if(window.innerWidth >=768){
+  if(window.innerWidth >767){
     document.getElementById("popup-title").textContent = project.title;
     document.getElementById("popup-summary").textContent = project.summary.join("          \u2022            ")
     document.getElementById("popup-image").src = project.image;
@@ -101,7 +101,7 @@ function showPopup(index) {
     document.getElementById("popup-description2").textContent = project.description2;
     document.getElementById("popup").style.display = "block";
   }
-  else if(window.innerWidth <=375)  {
+  else if(window.innerWidth <=767)  {
     document.getElementById("popup-mobile-title").textContent = project.title;
     document.getElementById("popup-mobile-summary").textContent = project.summary.join("          \u2022            ")
     document.getElementById("popup-mobile-image").src = project.image;

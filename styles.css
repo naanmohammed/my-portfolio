@@ -499,6 +499,7 @@ label {
   padding-top: 1%;
   background-color: rgba(193, 199, 208, 0.8);
   backdrop-filter: blur(7px) brightness(1);
+  display: none;
 }
 
 #popup-mobile-content {
@@ -520,10 +521,6 @@ label {
 
 #popup-mobile-description1 {
   display: none;
-}
-
-#popup-mobile-image {
-  padding-bottom: 2rem;
 }
 
 #popup-mobile-details {
@@ -900,6 +897,7 @@ label {
     padding-top: 1%;
     background-color: rgba(193, 199, 208, 0.8);
     backdrop-filter: blur(7px) brightness(1);
+    display: none;
   }
 
   #popup-content {
