@@ -117,3 +117,16 @@ function showPopup(index) {
     document.getElementById("popup-mobile").style.display = "block";
   }
 }
+
+function liveLink() {
+  var url = 'https://naanmohammed.github.io/my-portfolio/';
+  window.open(url);
+}
+function sourceLink() {
+  var url = 'https://github.com/naanmohammed/my-portfolio'
+  window.open(url);
+}
+function hidePopup() {
+  document.getElementById("popup").style.display = "none";
+  document.getElementById("popup-mobile").style.display = "none";
+}
