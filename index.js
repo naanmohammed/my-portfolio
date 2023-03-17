@@ -1,4 +1,3 @@
-export { hidePopup, showPopup, sourceLink, liveLink};
 const button = document.getElementById('my_button');
 const page = document.getElementById('translucent_page');
 const closeButton = document.getElementById('close_button');
@@ -23,8 +22,6 @@ lis.forEach((li) => {
     page.style.display = 'none';
   });
 });
-
-//
 
 const projects = [
   {
@@ -136,3 +133,7 @@ function hidePopup() {
   document.getElementById('popup').style.display = 'none';
   document.getElementById('popup-mobile').style.display = 'none';
 }
+
+export { 
+  hidePopup, showPopup, sourceLink, liveLink 
+};
