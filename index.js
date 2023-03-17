@@ -1,3 +1,4 @@
+export { hidePopup, showPopup, sourceLink, liveLink};
 const button = document.getElementById('my_button');
 const page = document.getElementById('translucent_page');
 const closeButton = document.getElementById('close_button');
@@ -135,5 +136,3 @@ function hidePopup() {
   document.getElementById('popup').style.display = 'none';
   document.getElementById('popup-mobile').style.display = 'none';
 }
-
-
