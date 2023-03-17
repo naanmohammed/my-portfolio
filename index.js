@@ -133,7 +133,6 @@ function hidePopup() {
   document.getElementById('popup').style.display = 'none';
   document.getElementById('popup-mobile').style.display = 'none';
 }
-
 export { 
   hidePopup, showPopup, sourceLink, liveLink 
 };
