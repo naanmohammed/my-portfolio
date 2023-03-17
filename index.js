@@ -31,30 +31,30 @@ const projects = [
     closeIcon: './img/closePop.png',
     summary: ['CANOPY', 'Back End Dev', '2015'],
     image: 'images/desktop_work_image1.png',
-    description1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    description2: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+    description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description2: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     tag1: 'html',
     tag2: 'css',
     tag3: 'javascript',
     tag4: 'ruby',
     tag5: 'bootsrap',
     liveLink: 'https://naanmohammed.github.io/my-portfolio/',
-    sourceLink: 'https://github.com/naanmohammed/my-portfolio'
+    sourceLink: 'https://github.com/naanmohammed/my-portfolio',
   },
   {
     title: 'Multi-Post Stories',
     closeIcon: './img/closePop.png',
     summary: ['CANOPY', 'Back End Dev', '2015'],
     image: 'images/desktop_work_image2.png',
-    description1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    description2: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+    description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description2: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     tag1: 'html',
     tag2: 'css',
     tag3: 'javascript',
     tag4: 'ruby',
     tag5: 'bootsrap',
     liveLink: 'https://naanmohammed.github.io/my-portfolio/',
-    sourceLink: 'https://github.com/naanmohammed/my-portfolio'
+    sourceLink: 'https://github.com/naanmohammed/my-portfolio',
   },
   {
     title: 'Tonic',
@@ -62,23 +62,23 @@ const projects = [
     summary: ['CANOPY', 'Back End Dev', '2015'],
     image: 'images/desktop_work_image3.png',
     deskImage: 'img/popDesk.jpg',
-    description1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    description2: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+    description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description2: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     tag1: 'html',
     tag2: 'css',
     tag3: 'javascript',
     tag4: 'ruby',
     tag5: 'bootsrap',
     liveLink: 'https://naanmohammed.github.io/my-portfolio/',
-    sourceLink: 'https://github.com/naanmohammed/my-portfolio'
+    sourceLink: 'https://github.com/naanmohammed/my-portfolio',
   },
   {
     title: 'Multi-Post Stories',
     closeIcon: './img/closePop.png',
     summary: ['CANOPY', 'Back End Dev', '2015'],
     image: 'images/desktop_work_image4.png',
-    description1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    description2: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+    description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description2: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     technologies: 'tagList',
     tag1: 'html',
     tag2: 'css',
@@ -86,13 +86,13 @@ const projects = [
     tag4: 'ruby',
     tag5: 'bootsrap',
     liveLink: 'https://naanmohammed.github.io/my-portfolio/',
-    sourceLink: 'https://github.com/naanmohammed/my-portfolio'
+    sourceLink: 'https://github.com/naanmohammed/my-portfolio',
   },
 ];
 
 function showPopup(index) {
   const project = projects[index];
-  if (window.innerWidth > 767){
+  if (window.innerWidth > 767) {
     document.getElementById('popup-title').textContent = project.title;
     document.getElementById('popup-summary').textContent = project.summary.join('          \u2022            ');
     document.getElementById('popup-image').src = project.image;
@@ -106,7 +106,7 @@ function showPopup(index) {
     document.getElementById('popup-description1').textContent = project.description1;
     document.getElementById('popup-description2').textContent = project.description2;
     document.getElementById('popup').style.display = 'block';
-  } else if(window.innerWidth <= 767) {
+  } else if (window.innerWidth <= 767) {
     document.getElementById('popup-mobile-title').textContent = project.title;
     document.getElementById('popup-mobile-summary').textContent = project.summary.join('          \u2022            ');
     document.getElementById('popup-mobile-image').src = project.image;
@@ -124,14 +124,16 @@ function showPopup(index) {
 }
 
 function liveLink() {
-  let url = 'https://naanmohammed.github.io/my-portfolio/';
+  const url = 'https://naanmohammed.github.io/my-portfolio/';
   window.open(url);
 }
 function sourceLink() {
-  let url = 'https://github.com/naanmohammed/my-portfolio'
+  const url = 'https://github.com/naanmohammed/my-portfolio';
   window.open(url);
 }
 function hidePopup() {
   document.getElementById('popup').style.display = 'none';
   document.getElementById('popup-mobile').style.display = 'none';
 }
+
+
