@@ -184,3 +184,4 @@ for (let i = 0; i < inputs.length; i+=1) {
     localStorage.setItem('formData', JSON.stringify(formData));
   });
 }
+});
