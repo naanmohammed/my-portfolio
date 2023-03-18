@@ -195,5 +195,3 @@ for (const input of inputs) {
     localStorage.setItem('formData', JSON.stringify(formData));
   });
 }
-
-
