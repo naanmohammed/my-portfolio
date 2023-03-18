@@ -135,7 +135,6 @@ works.forEach((work) => {
 
     document.body.appendChild(popup);
   });
-});
 
 const form = document.querySelector('form');
 const emailInput = document.querySelector('#email');
