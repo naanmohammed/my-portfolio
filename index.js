@@ -154,24 +154,8 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-const errorMessage = document.createElement('div');
-errorMessage.style.color = 'red';
-errorMessage.style.marginTop = '-16px';
-
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
-  const emailValue = emailInput.value;
-  
-  if (emailValue === emailValue.toLowerCase()) {
-    form.submit();
-  }else {
-    errorMessage.textContent = 'Email must be in lowercase';
-    emailInput.parentNode.insertBefore(errorMessage, emailInput.nextSibling);
-  }
-});
 
 const inputs = form.querySelectorAll('input, textarea');
-
 const savedData = localStorage.getItem('formData');
 if (savedData) {
   const formData = JSON.parse(savedData);
