@@ -54,4 +54,17 @@ if (savedData) {
   }
 }
 
+for (const input of inputs) {
+  input.addEventListener('change', () => {
+    const formData = {};
+    for (const input of inputs) {
+      const name = input.getAttribute('name');
+      if (name) {
+        formData[name] = input.value;
+      }
+    }
+    localStorage.setItem('formData', JSON.stringify(formData));
+  });
+}
+
 
