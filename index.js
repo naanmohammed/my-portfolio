@@ -142,7 +142,7 @@ const errorMessage = document.createElement('div');
 errorMessage.style.color = 'red';
 errorMessage.style.marginTop = '-16px';
 
-form.addEventListener('submit', event => {
+form.addEventListener('submit', (event) => {
   event.preventDefault();
   const emailValue = emailInput.value;
 
