@@ -154,7 +154,6 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-
 const inputs = form.querySelectorAll('input, textarea');
 const savedData = localStorage.getItem('formData');
 if (savedData) {
