@@ -22,7 +22,6 @@ lis.forEach((li) => {
     page.style.display = 'none';
   });
 });
-
 const projects = [
   {
     id: 1,
