@@ -155,10 +155,13 @@ form.addEventListener('submit', (event) => {
 });
 
 const inputs = form.querySelectorAll('input, textarea');
+
+// Load data from local storage if available
 const savedData = localStorage.getItem('formData');
 if (savedData) {
   const formData = JSON.parse(savedData);
-  for (const input of inputs) {
+  for (let i = 0; i < inputs.length; i++) {
+    const input = inputs[i];
     const name = input.getAttribute('name');
     if (name && formData[name]) {
       input.value = formData[name];
@@ -166,10 +169,13 @@ if (savedData) {
   }
 }
 
-for (const input of inputs) {
-  input.addEventListener('change', () => {
+// Save data to local storage on change
+for (let i = 0; i < inputs.length; i++) {
+  const input = inputs[i];
+  input.addEventListener('change', function() {
     const formData = {};
-    for (const input of inputs) {
+    for (let j = 0; j < inputs.length; j++) {
+      const input = inputs[j];
       const name = input.getAttribute('name');
       if (name) {
         formData[name] = input.value;
