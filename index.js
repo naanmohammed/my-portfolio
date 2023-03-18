@@ -154,4 +154,4 @@ form.addEventListener('submit', function(event) {
     errorMessage.textContent = 'Email must be in lowercase';
     emailInput.parentNode.insertBefore(errorMessage, emailInput.nextSibling);
   }
-});
+})
