@@ -142,15 +142,14 @@ const errorMessage = document.createElement('div');
 errorMessage.style.color = 'red';
 errorMessage.style.marginTop = '-16px';
 
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', function (event) {
   event.preventDefault();
   const emailValue = emailInput.value;
-  
+
   if (emailValue === emailValue.toLowerCase()) {
     form.submit();
-  }
-  else {
+  }else {
     errorMessage.textContent = 'Email must be in lowercase';
     emailInput.parentNode.insertBefore(errorMessage, emailInput.nextSibling);
   }
-})
+});
