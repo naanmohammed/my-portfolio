@@ -521,7 +521,7 @@ label {
 
 .popup_subheader {
   display: flex;
-  gap: 0.5rem ;
+  gap: 0.5rem;
   font-size: small;
   margin-bottom: 0.5rem;
 }
@@ -534,7 +534,6 @@ label {
 .popup_details {
   display: flex;
   flex-direction: column;
-  height: fit-content;
   margin-top: 0.5rem;
 }
 
@@ -867,7 +866,7 @@ label {
     background-color: rgba(193, 199, 208, 0.8);
     backdrop-filter: blur(7px) brightness(1);
   }
-  
+
   .popup_content {
     position: absolute;
     top: 50%;
@@ -888,7 +887,7 @@ label {
 
   .popup_subheader {
     display: flex;
-    gap: 0.75rem ;
+    gap: 0.75rem;
   }
 
   .popup_image {
@@ -899,7 +898,6 @@ label {
   .popup_details {
     display: flex;
     flex-direction: row;
-    height: fit-content;
     margin-top: 1.5rem;
   }
 
@@ -911,7 +909,6 @@ label {
   .popup_links {
     display: flex;
     max-width: 35%;
-    margin-right: auto;
     margin: 0 4rem;
   }
 
