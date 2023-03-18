@@ -127,7 +127,6 @@ works.forEach((work) => {
         </div>
       </div>
     `;
-
     const close = popup.querySelector('.close');
     close.addEventListener('click', () => {
       popup.remove();
