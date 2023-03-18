@@ -25,115 +25,115 @@ lis.forEach((li) => {
 
 const projects = [
   {
-    title: 'Tonic',
-    closeIcon: './img/closePop.png',
-    summary: ['CANOPY', 'Back End Dev', '2015'],
+    id: 1,
+    name: 'Tonic',
+    client: 'CANOPY',
+    role: 'Back End Dev',
+    year: 2015,
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    tags: ['html', 'css', 'javaScript'],
+    imageClass: 'work_1',
     image: 'images/desktop_work_image1.png',
-    description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    description2: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    tag1: 'html',
-    tag2: 'css',
-    tag3: 'javascript',
-    tag4: 'ruby',
-    tag5: 'bootsrap',
     liveLink: 'https://naanmohammed.github.io/my-portfolio/',
     sourceLink: 'https://github.com/naanmohammed/my-portfolio',
   },
   {
-    title: 'Multi-Post Stories',
-    closeIcon: './img/closePop.png',
-    summary: ['CANOPY', 'Back End Dev', '2015'],
+    id: 2,
+    name: 'Multi-Post Stories',
+    client: 'CANOPY',
+    role: 'Back End Dev',
+    year: 2015,
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    tags: ['html', 'css', 'Ruby on rails', 'javaScript'],
+    imageClass: 'work_2',
     image: 'images/desktop_work_image2.png',
-    description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    description2: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    tag1: 'html',
-    tag2: 'css',
-    tag3: 'javascript',
-    tag4: 'ruby',
-    tag5: 'bootsrap',
     liveLink: 'https://naanmohammed.github.io/my-portfolio/',
     sourceLink: 'https://github.com/naanmohammed/my-portfolio',
   },
   {
-    title: 'Tonic',
-    closeIcon: './img/closePop.png',
-    summary: ['CANOPY', 'Back End Dev', '2015'],
+    id: 3,
+    name: 'Tonic',
+    client: 'CANOPY',
+    role: 'Back End Dev',
+    year: 2015,
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    tags: ['html', 'css', 'Ruby on rails', 'javaScript'],
+    imageClass: 'work_3',
     image: 'images/desktop_work_image3.png',
-    deskImage: 'img/popDesk.jpg',
-    description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    description2: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    tag1: 'html',
-    tag2: 'css',
-    tag3: 'javascript',
-    tag4: 'ruby',
-    tag5: 'bootsrap',
     liveLink: 'https://naanmohammed.github.io/my-portfolio/',
     sourceLink: 'https://github.com/naanmohammed/my-portfolio',
   },
   {
-    title: 'Multi-Post Stories',
-    closeIcon: './img/closePop.png',
-    summary: ['CANOPY', 'Back End Dev', '2015'],
+    id: 4,
+    name: 'Multi-Post Stories',
+    client: 'CANOPY',
+    role: 'Back End Dev',
+    year: 2015,
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    tags: ['html', 'css', 'Ruby on rails', 'javaScript'],
+    imageClass: 'work_4',
     image: 'images/desktop_work_image4.png',
-    description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    description2: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    technologies: 'tagList',
-    tag1: 'html',
-    tag2: 'css',
-    tag3: 'javascript',
-    tag4: 'ruby',
-    tag5: 'bootsrap',
     liveLink: 'https://naanmohammed.github.io/my-portfolio/',
     sourceLink: 'https://github.com/naanmohammed/my-portfolio',
   },
 ];
 
-function showPopup(index) {
-  const project = projects[index];
-  if (window.innerWidth > 767) {
-    document.getElementById('popup-title').textContent = project.title;
-    document.getElementById('popup-summary').textContent = project.summary.join('          \u2022            ');
-    document.getElementById('popup-image').src = project.image;
-    document.getElementById('popup-image').style.width = '100%';
-    document.getElementById('popup-image').style.height = '55%';
-    document.getElementById('popup-tag1').textContent = project.tag1;
-    document.getElementById('popup-tag2').textContent = project.tag2;
-    document.getElementById('popup-tag3').textContent = project.tag3;
-    document.getElementById('popup-tag4').textContent = project.tag4;
-    document.getElementById('popup-tag5').textContent = project.tag5;
-    document.getElementById('popup-description1').textContent = project.description1;
-    document.getElementById('popup-description2').textContent = project.description2;
-    document.getElementById('popup').style.display = 'block';
-  } else if (window.innerWidth <= 767) {
-    document.getElementById('popup-mobile-title').textContent = project.title;
-    document.getElementById('popup-mobile-summary').textContent = project.summary.join('          \u2022            ');
-    document.getElementById('popup-mobile-image').src = project.image;
-    document.getElementById('popup-mobile-image').style.width = '100%';
-    document.getElementById('popup-mobile-image').style.height = '55%';
-    document.getElementById('popup-mobile-tag1').textContent = project.tag1;
-    document.getElementById('popup-mobile-tag2').textContent = project.tag2;
-    document.getElementById('popup-mobile-tag3').textContent = project.tag3;
-    document.getElementById('popup-mobile-tag4').textContent = project.tag4;
-    document.getElementById('popup-mobile-tag5').textContent = project.tag5;
-    document.getElementById('popup-mobile-description1').textContent = project.description1;
-    document.getElementById('popup-mobile-description2').textContent = project.description2;
-    document.getElementById('popup-mobile').style.display = 'block';
-  }
-}
+const works = document.querySelectorAll('.works_list');
 
-function liveLink() {
-  const url = 'https://naanmohammed.github.io/my-portfolio/';
-  window.open(url);
-}
-function sourceLink() {
-  const url = 'https://github.com/naanmohammed/my-portfolio';
-  window.open(url);
-}
-function hidePopup() {
-  document.getElementById('popup').style.display = 'none';
-  document.getElementById('popup-mobile').style.display = 'none';
-}
+works.forEach((work) => {
+  const button = work.querySelector('button');
+  const id = button.parentNode.parentNode.querySelector('.work_image').classList[1];
+  const project = projects.find((project) => project.imageClass === id);
 
-export {
-  hidePopup, showPopup, sourceLink, liveLink,
-};
+  button.addEventListener('click', () => {
+    const popup = document.createElement('div');
+    popup.classList.add('popup');
+    popup.innerHTML = `
+      <div class='popup_content'>
+        <div class='popup_header'> 
+          <h1>${project.name}</h1>
+          <span class='close'>&times;</span>
+        </div>
+        <ul class='popup_subheader'>
+          <li class='work_client'>${project.client}</li>
+          <li class='work_bullet'></li>
+          <li>${project.role}</li>
+          <li class='work_bullet'></li>
+          <li>${project.year}</li>
+        </ul>
+        <img class='popup_image' src='${project.image}'></img>
+        <div class='popup_details'>
+        <p class='popup_description'>
+        ${project.description}
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        
+        </p>
+        <div class='popup_links'>
+          <ul class='tags' id='popup_tags'>
+            ${project.tags.map((tag) => `<li>${tag}</li>`).join('')}
+            <li>Bootstrap</li>
+          </ul>
+          <div>
+          <hr class='popup_hr'>
+          <div>
+          <div class='popup_btn_container'>
+          <button onclick="window.open('${project.liveLink}', '_blank')" class='popup_btn'>See Live <img src='images/live.png'></button>
+          <button onclick="window.open('${project.sourceLink}', '_blank')" class='popup_btn'>See Source <img src='images/source.png'></button>
+          <div>
+        </div>
+        </div>
+      </div>
+    `;
+
+    const close = popup.querySelector('.close');
+    close.addEventListener('click', () => {
+      popup.remove();
+    });
+
+    document.body.appendChild(popup);
+  });
+});

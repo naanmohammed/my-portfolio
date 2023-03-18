@@ -48,18 +48,6 @@ nav a {
   text-decoration: none;
 }
 
-.popup-mobile-technologies_2 li {
-  background: #ebebff;
-  border-radius: 8px;
-  color: #6070ff;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  padding: 0.25rem 0.5rem;
-  display: flex;
-  list-style-type: none;
-}
-
 #translucent_page {
   display: none;
   position: fixed;
@@ -501,7 +489,7 @@ label {
   display: none;
 }
 
-#popup-mobile {
+.popup {
   position: fixed;
   top: 0;
   left: 0;
@@ -511,108 +499,92 @@ label {
   padding-top: 1%;
   background-color: rgba(193, 199, 208, 0.8);
   backdrop-filter: blur(7px) brightness(1);
-  display: none;
 }
 
-#popup-mobile-content {
+.popup_content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 95%;
-  height: 95%;
+  width: 75%;
+  height: 90%;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#popup-mobile-image {
-  max-height: 40%;
-}
-
-#popup-mobile-description1 {
-  display: none;
-}
-
-#popup-mobile-details {
+.popup_header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
-#popup-mobile-tag-buttons {
+.popup_subheader {
   display: flex;
-  flex-direction: column;
-}
-
-#popup-mobile-description {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
-  margin-top: 0.5rem;
-}
-
-#popup-mobile-summary {
+  gap: 0.5rem ;
   font-size: small;
-  word-spacing: 1px;
-}
-
-#popup-mobile-technologies {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
-  margin-top: 0.5rem;
-}
-
-.popup-mobile-btn {
-  background: #fff;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  font-weight: 300;
-  font-size: 17px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  padding: 0.5rem;
-  color: #396df2;
-  margin-top: 1rem;
-}
-
-#popup-mobile-btn1 {
-  margin-right: 0.4rem;
-}
-
-#popup-mobile-btn img {
-  margin-right: 0.25rem;
-}
-
-#popup-mobile-technologies li {
-  background: #ebebff;
-  border-radius: 8px;
-  color: #6070ff;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  padding: 0.25rem 0.5rem;
-  display: flex;
-  list-style-type: none;
-}
-
-.popup-mobile-technologies_2 {
-  display: flex;
-  gap: 1rem;
   margin-bottom: 0.5rem;
 }
 
-#close-popup-mobile {
+.popup_image {
+  width: 100%;
+  height: 25%;
+}
+
+.popup_details {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin-top: 0.5rem;
+}
+
+.popup_description {
+  max-width: 100%;
+  padding-right: 0.5rem;
+  font-size: small;
+  line-height: 20px;
+  padding-bottom: 0.5rem;
+}
+
+.popup_links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#popup_tags {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+#popup_tags li {
+  width: max-content;
+}
+
+.popup_btn {
+  background: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  padding: 0.4rem;
+  color: #396df2;
+}
+
+.popup_btn_container {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.popup__close {
   position: absolute;
   top: 10px;
   right: 10px;
   font-size: 20px;
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -884,7 +856,7 @@ label {
     margin-right: 44%;
   }
 
-  #popup {
+  .popup {
     position: fixed;
     top: 0;
     left: 0;
@@ -894,10 +866,9 @@ label {
     padding-top: 1%;
     background-color: rgba(193, 199, 208, 0.8);
     backdrop-filter: blur(7px) brightness(1);
-    display: none;
   }
-
-  #popup-content {
+  
+  .popup_content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -910,57 +881,50 @@ label {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
-  .popup-image {
+  .popup_header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .popup_subheader {
+    display: flex;
+    gap: 0.75rem ;
+  }
+
+  .popup_image {
     width: 100%;
-    height: 20%;
+    height: 60%;
   }
 
-  #popup-description1 {
-    margin-bottom: 1.5rem;
-  }
-
-  #popup-image {
-    padding-bottom: 2rem;
-  }
-
-  #popup-details {
+  .popup_details {
     display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-top: 1.5rem;
   }
 
-  #popup-tag-buttons {
+  .popup_description {
+    max-width: 65%;
+    padding-right: 0.5rem;
+  }
+
+  .popup_links {
     display: flex;
-    flex-direction: column;
+    max-width: 35%;
+    margin-right: auto;
+    margin: 0 4rem;
   }
 
-  #popup-description {
-    max-width: 75%;
-    margin-right: 3rem;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 30px;
-  }
-
-  #popup_tag-buttons {
-    max-width: 30%;
-  }
-
-  #popup-summary {
-    margin-bottom: 2rem;
-    font-size: small;
-    word-spacing: 5px;
-  }
-
-  #popup-technologies {
-    display: flex;
+  #popup_tags {
     gap: 1rem;
-    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
   }
 
-  .popup-btn {
+  #popup_tags li {
+    width: max-content;
+  }
+
+  .popup_btn {
     background: #fff;
     border: 1px solid #6070ff;
     border-radius: 8px;
@@ -970,52 +934,16 @@ label {
     letter-spacing: 0.03em;
     padding: 0.5rem;
     color: #396df2;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
   }
 
-  #popup-btn1 {
-    margin-right: 0.4rem;
-  }
-
-  #popup-btn img {
-    margin-right: 0.25rem;
-  }
-
-  .popup-technologies_2 li {
-    background: #ebebff;
-    border-radius: 8px;
-    color: #6070ff;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    padding: 0.25rem 0.5rem;
-    display: flex;
-    list-style-type: none;
-  }
-
-  #popup-technologies li {
-    background: #ebebff;
-    border-radius: 8px;
-    color: #6070ff;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    padding: 0.25rem 0.5rem;
-    display: flex;
-    list-style-type: none;
-  }
-
-  .popup-technologies_2 {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-  }
-
-  #close-popup {
+  .popup__close {
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 20px;
+    font-weight: bold;
     cursor: pointer;
   }
 }
