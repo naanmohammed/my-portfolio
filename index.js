@@ -41,4 +41,3 @@ form.addEventListener('submit', function(event) {
     emailInput.parentNode.insertBefore(errorMessage, emailInput.nextSibling);
   }
 });
-
