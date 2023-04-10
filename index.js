@@ -25,17 +25,17 @@ lis.forEach((li) => {
 const projects = [
   {
     id: 1,
-    name: 'Tonic',
+    name: 'GDG-Addis',
     client: 'CANOPY',
     role: 'Back End Dev',
     year: 2015,
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'An informational website displaying updates about the GDG-Addis conference.',
     tags: ['html', 'css', 'javaScript'],
     imageClass: 'work_1',
     image: 'images/desktop_work_image1.png',
-    liveLink: 'https://naanmohammed.github.io/my-portfolio/',
-    sourceLink: 'https://github.com/naanmohammed/my-portfolio',
+    liveLink: 'https://naanmohammed.github.io/gdg-addis/',
+    sourceLink: 'https://github.com/naanmohammed/gdg-addis',
   },
   {
     id: 2,
