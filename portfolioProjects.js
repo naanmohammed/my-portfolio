@@ -52,26 +52,26 @@ const portfolios = [
     }
   ];
 
-const portfolioSection = document.getElementById('portfolio');
+const portfolioSection = document.getElementById('Portfolio');
 
 portfolios.forEach((project, index) => {
     const worksList = document.createElement('div');
-    worksList.classList.add('works_list');
+    worksList.classList.add('work');
 
     worksList.innerHTML = `
-        <div class="work_image_container">
-        <div class="work_image work_${index + 1}"></div>
+        <div class="work_image">
+          <img src="${project.image}" alt="work_image">
         </div>
-        <div class="work_summary work_${index + 1}_summary">
+        <div class="work_summary">
         <h1>${project.title}</h1>
         <ul class="subheader">
             <li class="work_client">${project.client}</li>
-            <li class="work_bullet">·</li>
+            <li class="work_bullet"></li>
             <li>${project.role}</li>
-            <li class="work_bullet">·</li>
+            <li class="work_bullet"></li>
             <li>${project.year}</li>
         </ul>
-        <p><span>${project.description}</span></p>
+        <p>${project.description}</p>
         <ul class="tags">
             ${project.tags.map(tag => `<li>${tag}</li>`).join('')}
         </ul>
