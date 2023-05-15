@@ -73,7 +73,7 @@ ul {
 
 .headline {
   min-width: 100%;
-  min-height: 40rem; 
+  min-height: 40rem;
   background-image: url('images/mobile-page1-bg.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -129,7 +129,7 @@ ul {
   margin-bottom: 5.5rem;
 }
 
-.work_image img{
+.work_image img {
   background-size: contain;
   width: 90%;
   min-height: 225px;
@@ -278,6 +278,7 @@ ul {
   flex-direction: column;
   flex-wrap: wrap;
 }
+
 .language_list {
   display: flex;
   flex-direction: column;
@@ -296,7 +297,7 @@ ul {
 
 .language_list li img {
   border-radius: 50%;
-  width: 52;
+  width: 52px;
   height: 52px;
 }
 
@@ -335,7 +336,6 @@ ul {
   border-radius: 8px;
   display: flex;
   padding: 0.5rem 0.75rem;
-  
 }
 
 .contact_me {
@@ -577,30 +577,29 @@ label {
   }
 
   .desktop_nav {
-    
     display: block;
     color: #344563;
     -webkit-animation: spin 5s infinite;
     animation: spin 5s infinite;
   }
-  
+
   @-webkit-keyframes spin {
     from {
       -webkit-transform: rotateY(0deg);
     }
-  
+
     to {
       -webkit-transform: rotateY(-360deg);
     }
   }
-  
+
   @keyframes spin {
     from {
       -moz-transform: rotateY(0deg);
       -ms-transform: rotateY(0deg);
       transform: rotateY(0deg);
     }
-  
+
     to {
       -moz-transform: rotateY(-360deg);
       -ms-transform: rotateY(-360deg);
