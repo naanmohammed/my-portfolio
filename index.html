@@ -11,13 +11,21 @@
     <header>
         <nav class = "nav_bar">
             <p class="logo"> My Logo </p>
-            <img class ="collapsed_nav" src="./assets/Enabled.png" />
+            <img class ="collapsed_nav" id="collapsed_nav" src="./assets/Enabled.png" />
             <ul class="nav_links">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a id="portfolio_menu_dk"href="#works">Portfolio</a></li>
+                <li><a id="about_menu_dk"href="#about-myself">About</a></li>
+                <li><a id="contact_menu_dk"href="#contact-me">Contact</a></li>
             </ul>
         </nav>
+        <div id="mobile_menu">
+            <h3 id="close-btn">X</h3>
+            <div class="menu_links">
+                <p id="portfolio_menu">Portfolio</p>
+                <p id="about_menu">About</p>
+                <p id="contact_menu">Contact</p>
+            </div>
+        </div>
     </header>
     <main>
         <section class="headline">
@@ -36,7 +44,7 @@
                 <li><img src = "./assets/wellfound.png" /></li>
             </ul>
         </section>
-        <section class="works">
+        <section class="works" id="works">
             <section class="work">
                 <img src = "./assets/SnapshootPortfolio.png">
                 <section class="work-description">
@@ -127,7 +135,7 @@
             </section>
 
         </section>
-        <section class="about-myself">
+        <section class="about-myself" id="about-myself">
             <section class="about-myself-section1">
                 <h3 class="about-myself-title">About Myself</h3>
                 <p class="about-myself-description">Hello I’m a software developer! I can help you build a product , feature or website.
@@ -179,7 +187,7 @@
                 </section>
             </section>
         </section>
-        <section class="contact-me">
+        <section class="contact-me" id="contact-me">
           <h3>Contact me</h3>
           <p class="form-instructions">
             If you have an application you are interested in developing,
@@ -194,5 +202,6 @@
           </form>
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
