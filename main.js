@@ -30,3 +30,43 @@ contact_option.onclick = function() {
 }
 //
 
+//Underline Section in view
+function isSectionInView(idName) {
+    const section = document.getElementById(idName);
+    if (section) {
+        const rect = section.getBoundingClientRect();
+        const sectionVisibleHeight = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
+        const sectionVisibility = sectionVisibleHeight / (rect.bottom - rect.top);
+        return sectionVisibility > 0.3712;
+    }
+    return false;
+}
+
+function handleScroll(){
+    if (isSectionInView("works")) {
+        document.getElementById("portfolio_menu_dk").style.textDecoration="underline";
+        document.getElementById("about_menu_dk").style.textDecoration="none";
+        document.getElementById("contact_menu_dk").style.textDecoration="none";
+    }
+    else if (isSectionInView("about-myself")) {
+        document.getElementById("about_menu_dk").style.textDecoration="underline";
+        document.getElementById("portfolio_menu_dk").style.textDecoration="none";
+        document.getElementById("contact_menu_dk").style.textDecoration="none";
+    }
+
+    else if (isSectionInView("contact-me")) {
+        document.getElementById("contact_menu_dk").style.textDecoration="underline";
+        document.getElementById("about_menu_dk").style.textDecoration="none";
+        document.getElementById("portfolio_menu_dk").style.textDecoration="none";
+    }
+
+    else {
+        document.getElementById("contact_menu_dk").style.textDecoration="none";
+        document.getElementById("about_menu_dk").style.textDecoration="none";
+        document.getElementById("portfolio_menu_dk").style.textDecoration="none";
+    }
+}
+
+window.addEventListener("scroll", handleScroll)
+//
+
