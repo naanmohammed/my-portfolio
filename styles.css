@@ -435,7 +435,7 @@ main {
   }
 
   .work img {
-    min-width: 600px;
+    width: 60%;
     height: 500px;
   }
 
