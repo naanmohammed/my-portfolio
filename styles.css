@@ -94,6 +94,10 @@ main {
   border-radius: 15px;
 }
 
+.work img {
+  max-width: 100%;
+}
+
 .work img:hover {
   transform: scale(1.03);
 }
@@ -372,6 +376,61 @@ main {
   gap: 20px;
 }
 
+/* Popup Styles */
+
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 76, 148, 0.5);
+  backdrop-filter: blur(6px);
+  z-index: 1;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 92%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  gap: 10px;
+}
+
+.btn-group {
+  display: flex;
+  margin: auto;
+  gap: 20px;
+}
+
+#popup-close-btn {
+  color: #8b8b8b;
+  margin-top: 5px;
+  font-weight: 100;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-btn {
+  max-width: none;
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.popup-btn-img {
+  margin-top: 4px;
+}
+
 @media (min-width: 768px) {
   .collapsed_nav{
     display: none;
@@ -393,7 +452,7 @@ main {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff; /* Set your desired background color */
+    background-color: #fff;
     z-index: 100;
   }
 

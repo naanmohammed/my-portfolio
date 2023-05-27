@@ -70,6 +70,7 @@ function handleScroll(){
 window.addEventListener("scroll", handleScroll)
 //
 
+/* Dynamically Generate Portfoliio Section */
 let works = [
     {
         id:1,
@@ -140,11 +141,55 @@ for( let i=0; i<works.length; i++ ){
                 <ul class="tags">
                     ${works[i].techStack.map((tag) => `<li class="tag">${tag}</li>`).join('')}
                 </ul>
-                <a type="Submit" href="${works[i].sourceLink}" class="see-project-btn">See Project</a>
+                <button type="Submit" onclick = "popup(${i})" class="see-project-btn">See Project</a>
             </section>
         </section>
         `
 
 
     document.getElementById('works').appendChild(work)
+}
+
+
+/* Popup Section*/
+
+function popup(i) {
+    let newpopup = document.createElement('section')
+    newpopup.innerHTML =
+    `
+        <section class="work popup-content">
+            <div class="popup-header">
+                <h3 class="work-title">${works[i].name}</h3>
+                <h3 id="popup-close-btn">X</h3>
+            </div>
+            <ul class="work-summary">
+                <li class="work-summary-title">${works[i].client}</li>
+                <ul class="work-summary-role-year">
+                    <li>${works[i].role}</li>
+                    <li>${works[i].year}</li>
+                </ul>
+            </ul>
+            <img src = ${works[i].image}>
+            <section class="work-description">
+                <p class="work-paragraph">${works[i].description}</p>
+                <ul class="tags">
+                    ${works[i].techStack.map((tag) => `<li class="tag">${tag}</li>`).join('')}
+                </ul>
+                <hr />
+                <div class="btn-group">
+                    <a href="${works[i].liveLink}" class="see-project-btn popup-btn"><p>See live</p> <img class="popup-btn-img" src="./assets/see-live.png"/></a>
+                    <a href="${works[i].sourceLink}" class="see-project-btn popup-btn"><p>See source</p> <img class="popup-btn-img" src="./assets/github.png"/></a>
+                <div>
+            </section>
+        </section>
+    `
+    newpopup.style.zIndex = '999';
+    popupContainer = document.getElementsByClassName('popup-container')[0];
+    popupContainer.style.display = 'block';
+    popupContainer.appendChild(newpopup);
+    popupClose = document.getElementById('popup-close-btn')
+    popupClose.addEventListener('click', function() {
+        popupContainer.removeChild(newpopup);
+        popupContainer.style.display = 'none'
+    })
 }
