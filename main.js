@@ -170,22 +170,27 @@ function popup(i) {
                 </ul>
             </ul>
             <img src = ${works[i].image}>
-            <section class="work-description">
-                <p class="work-paragraph">${works[i].description}</p>
-                <ul class="tags">
-                    ${works[i].techStack.map((tag) => `<li class="tag">${tag}</li>`).join('')}
-                </ul>
-                <hr />
-                <div class="btn-group">
-                    <a href="${works[i].liveLink}" class="see-project-btn popup-btn"><p>See live</p> <img class="popup-btn-img" src="./assets/see-live.png"/></a>
-                    <a href="${works[i].sourceLink}" class="see-project-btn popup-btn"><p>See source</p> <img class="popup-btn-img" src="./assets/github.png"/></a>
-                <div>
+            <section class="work-description popup-description">
+                <div class="popup-paragraph">
+                    <p class="work-paragraph">${works[i].description}</p>
+                </div>
+                <div class="popup-btn-tags">
+                    <ul class="tags">
+                        ${works[i].techStack.map((tag) => `<li class="tag">${tag}</li>`).join('')}
+                    </ul>
+                    <hr class="popup-hr"/>
+                    <div class="btn-group">
+                        <a href="${works[i].liveLink}" class="see-project-btn popup-btn"><p>See live</p> <img class="popup-btn-img" src="./assets/see-live.png"/></a>
+                        <a href="${works[i].sourceLink}" class="see-project-btn popup-btn"><p>See source</p> <img class="popup-btn-img" src="./assets/github.png"/></a>
+                    <div>
+                </div>
             </section>
         </section>
     `
     newpopup.style.zIndex = '999';
     popupContainer = document.getElementsByClassName('popup-container')[0];
-    popupContainer.style.display = 'block';
+    document.body.firstElementChild.style.display = 'none';
+    popupContainer.style.display = 'flex';
     popupContainer.appendChild(newpopup);
     popupClose = document.getElementById('popup-close-btn')
     popupClose.addEventListener('click', function() {
