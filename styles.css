@@ -1,62 +1,72 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sanserif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'sans-serif';
 }
 
-
 .nav_bar {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    color: #6070FF;
-    font-size: 18px;
-    font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: #6070ff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.collapsed_nav {
+  cursor: pointer;
 }
 
 .headline {
-    background-image: url("assets/header-shapes-mobile.png");
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    padding: 114px 24px;
-    margin-bottom: 20px;
-    border-bottom-left-radius: 15%;
-    background-color:#FFF;
+  background-image: url("assets/header-shapes-mobile.png");
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  padding: 114px 24px;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 15%;
+  background-color: #fff;
 }
 
 .headline_header {
-    font-size: 40px;
-    font-weight: 700;
-    color: #172B4D;
-    line-height: 52px;
-    margin-bottom: 5px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4d;
+  line-height: 52px;
+  margin-bottom: 5px;
 }
 
 .headline_text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #344563;
-    margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 10px;
 }
 
 .headline_social_media {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #7F8CFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+  cursor: pointer;
 }
 
 .headline_social_media_list {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.headline_social_media_list li img:hover {
+  border: 2px #3c9ceb solid;
+  cursor: pointer;
 }
