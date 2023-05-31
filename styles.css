@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+.logo {
+    font: poppins, sanserif;
+    display: flex;
+    align-items: center;
+    color: #6070FF;
+    font-size: 18px;
+    font-weight: 700;
+}
