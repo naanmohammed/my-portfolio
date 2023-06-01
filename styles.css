@@ -24,13 +24,16 @@
   cursor: pointer;
 }
 
+main {
+  background-color: #f1eded;
+}
+
 .headline {
   background-image: url("assets/header-shapes-mobile.png");
   display: flex;
   flex-direction: column;
   background-size: cover;
   padding: 114px 24px;
-  margin-bottom: 20px;
   border-bottom-left-radius: 15%;
   background-color: #fff;
 }
