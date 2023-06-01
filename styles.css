@@ -73,3 +73,87 @@ main {
   border: 2px #3c9ceb solid;
   cursor: pointer;
 }
+
+.works {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 40% 5%;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.work-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.work-summary {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.work-summary-title {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.work-summary-role-year {
+  display: flex;
+  gap: 30px;
+  list-style-type: disc;
+  color: #7A869A;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.work-paragraph {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.tag {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  background: #EBEBFF;
+  color: #6070FF;
+  padding: 3px 8px;
+  border-radius: 8px;
+}
+
+.see-project-btn {
+  background-color: white;
+  color: #6070FF;
+  border: 1px solid #6070FF;
+  max-width: 126px;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
