@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', 'sans-serif';
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav_bar {
@@ -117,7 +117,7 @@ main {
   display: flex;
   gap: 30px;
   list-style-type: disc;
-  color: #7A869A;
+  color: #7a869a;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -139,16 +139,16 @@ main {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  background: #EBEBFF;
-  color: #6070FF;
+  background: #ebebff;
+  color: #6070ff;
   padding: 3px 8px;
   border-radius: 8px;
 }
 
 .see-project-btn {
   background-color: white;
-  color: #6070FF;
-  border: 1px solid #6070FF;
+  color: #6070ff;
+  border: 1px solid #6070ff;
   max-width: 126px;
   padding: 12px;
   border-radius: 8px;
@@ -156,4 +156,92 @@ main {
   font-size: 17px;
   line-height: 24px;
   margin-bottom: 20px;
+}
+
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+  border-top-right-radius: 80px;
+  padding: 100px 25px;
+}
+
+.about-myself-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.about-myself-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.lets-connect {
+  color: #7f8cff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.get-resume-btn {
+  background-color: white;
+  color: #6070ff;
+  border: 1px solid #6070ff;
+  max-width: 160px;
+  padding: 10px;
+  text-align: start;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.language-header,
+.framework-header,
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 35px;
+}
+
+.language-text,
+.framework-text,
+.skill-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.language-description {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: #f7f7f9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.frameworks,
+.skills {
+  border-bottom: #dfe1e6 1px solid;
+  margin-top: 20px;
+  padding: 5px;
 }
