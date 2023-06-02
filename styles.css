@@ -438,6 +438,13 @@ main {
   gap: 10px;
 }
 
+#error-message {
+  color: #ff0000;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 @media (min-width: 768px) {
   .collapsed_nav{
     display: none;
@@ -575,7 +582,7 @@ main {
   .popup-container {
     overflow: auto;
   }
-  
+
   .popup-content {
     flex-direction: column;
     position: absolute;
