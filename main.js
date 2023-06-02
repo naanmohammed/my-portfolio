@@ -198,3 +198,21 @@ function popup(i) {
         popupContainer.style.display = 'none'
     })
 }
+
+
+//form-validation
+
+emailTab = document.getElementById('email');
+form = document.querySelector('.contact-form');
+
+function validateForm(event) {
+    if (!(emailTab.value === emailTab.value.toLowerCase())) {
+        event.preventDefault();
+        message = document.createElement('p');
+        message.id = 'error-message';
+        message.innerHTML = 'Please enter a lowercase email'
+        emailTab.parentNode.insertBefore(message, emailTab.nextSibling);
+    }
+}
+
+form.addEventListener('submit', validateForm);
