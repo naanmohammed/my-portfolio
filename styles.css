@@ -24,6 +24,10 @@
   cursor: pointer;
 }
 
+.nav_links {
+  display: none;
+}
+
 main {
   background-color: #f1eded;
 }
@@ -44,6 +48,7 @@ main {
   color: #172b4d;
   line-height: 52px;
   margin-bottom: 5px;
+  max-width: 275px;
 }
 
 .headline_text {
@@ -312,4 +317,125 @@ main {
   background-color: #fff;
   color:#6070FF;
   border: none;
+}
+
+@media (min-width: 768px) {
+  .collapsed_nav{
+    display: none;
+  }
+
+  .nav_links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+
+  .nav_bar {
+    margin: 1% 10% 3%;
+  }
+
+  .nav_links a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .headline {
+    background-image: url("assets/header-desktop.png");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-size: 95% 90%;
+    background-repeat: no-repeat;
+    padding: 15% 18%;
+    background-color: #fff;
+  }
+
+  .headline_header {
+    max-width: none;
+  }
+
+  .headline_text {
+    max-width: 720px;
+  }
+
+  .works {
+    padding: 10% 5%;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .work {
+    margin: auto;
+    flex-direction: row;
+    gap: 50px;
+    min-height: 400px;
+  }
+
+  .work img {
+    min-width: 600px;
+    height: 500px;
+  }
+
+  .work-description {
+    gap: 30px;
+    padding-top: 30px;
+  }
+
+  .work-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .about-myself {
+    flex-direction: row;
+    padding: 10%;
+    gap: 20px;
+  }
+
+  .about-myself-section1 {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 20px;
+  }
+
+  .about-myself-section2 {
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    width: 65%;
+    padding-top: 20px;
+  }
+
+  .language-list {
+    flex-direction: row;
+  }
+
+  .language-description {
+    flex-direction: column;
+    min-width: 105px;
+  }
+
+  .contact-me {
+    background-image: url(./assets/contact-form-bg-desktop.png);
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #6070FF;
+    gap: 30px;
+    padding: 100px 20px;
+  }
+
+  .contact-me p {
+    max-width: 470px;
+  }
+
+  .contact-form input,
+  .contact-form textarea  {
+    min-width: 425px;
+    border-radius: 0px;
+  }
+
+  .contact-form button {
+    margin: auto;
+  }
 }
