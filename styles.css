@@ -94,6 +94,10 @@ main {
   border-radius: 15px;
 }
 
+.work img:hover {
+  transform: scale(1.03);
+}
+
 .work-description {
   display: flex;
   flex-direction: column;
@@ -309,6 +313,7 @@ main {
   min-width: 300px;
 }
 
+
 .contact-form button {
   max-width: 142px;
   max-height: 48px;
@@ -317,6 +322,23 @@ main {
   background-color: #fff;
   color:#6070FF;
   border: none;
+}
+
+/* Animations */
+
+@keyframes rotateLogo {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.logo {
+  animation: rotateLogo 4s linear 1;
 }
 
 @media (min-width: 768px) {
@@ -328,6 +350,10 @@ main {
     display: flex;
     gap: 20px;
     list-style-type: none;
+  }
+
+  .nav_links li a:hover {
+    color: #6070FF;
   }
 
   .nav_bar {
@@ -427,6 +453,10 @@ main {
 
   .contact-me p {
     max-width: 470px;
+  }
+
+  .form-instructions:hover {
+    transform: translateX(30px);
   }
 
   .contact-form input,
