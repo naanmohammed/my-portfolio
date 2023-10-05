@@ -186,6 +186,9 @@ nav a {
   min-width: 18.5rem;
 }
 
+#skill_list {
+  margin-top: 20px;
+}
 .work_summary h1 {
   font-weight: 700;
   font-size: 32px;
