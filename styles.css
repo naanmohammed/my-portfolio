@@ -23,6 +23,14 @@ ul {
   list-style: none;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed to ensure it's above other elements */
+}
+
 header nav {
   display: flex;
   flex-direction: row;
