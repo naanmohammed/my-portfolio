@@ -11,49 +11,128 @@
 <body>
   <section class="landing_page">
     <header>
-      <nav class="nav-bar">
-        <a href="index.html"><img class="logo" src="images/naan's_logo.png"></a>
+      <nav>
+        <a href="index.html"><h3>Naan's Portfolio</h3></a>
         <a class="mobile_nav" id="my_button" href="index.html"><img src="images/Icon - Menu.png" alt="menu logo"></a>
         <div id="translucent_page">
-          <span id="close_button">&times;</span>
+          <span id="close_button">x</span>
           <ul>
             <li data-section="Portfolio">Portfolio</li>
             <li data-section="About">About</li>
             <li data-section="Contact">Contact</li>
           </ul>
         </div>
-        <ul class="desktop_nav">
-          <li><a href="https://docs.google.com/document/d/1gMXC8RfkdIlmqZZYq7GGlT3ci-1wbaoj4jwCxgkjTMM/edit?usp=sharing">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul>
+          <li><a class="desktop_nav" href="#">Portfolio</a></li>
+          <li><a class="desktop_nav" href="#">About</a></li>
+          <li><a class="desktop_nav" href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div class="headline">
-      <h1><span>I'm Naan Mohammed.<br> Glad to see <br>you!</span></h1>
-      <p>Naan Mohammed is a backend developer at THP Technologies skilled at architecting robust
-        cloud-based systems. Currently, Naan is expanding his AWS expertise through hands-on
-        projects under his independent brand CloudSkills. His goal is to become an AWS Certified
-        Solutions Architect.
-        Naan has successfully built and deployed applications on AWS using services like EC2,
-        Lambda, and DynamoDB. For example, he created a serverless data pipeline to extract
-        real-time insights from customer data. He also developed a model on AWS SageMaker,
-        improving search relevance by 15%. Naan continuously grows his cloud knowledge through
-        online courses, hands-on labs, and engaging with the AWS community.
-        With his strong backend development skills, passion for staying updated on the latest AWS
-        offerings, and proven ability to rapidly develop cloud-based applications, Naan is excited to
-        join an innovative team leveraging the agility of AWS. He looks forward to collaborating and
-        contributing his skills as a cloud practiotioner and solutions architect.
+      <h1><span>I'm Naan.<br> Glad to see <br>you!</span></h1>
+      <p>I’m a software developer! I can help you build a product ,
+        feature or website Look through some of my work and experience!
+        If you like what you see and have a project you need coded,
+        don’t hestiate to contact me.
       </p>
-      <a class="lets_connect" href="https://docs.google.com/document/d/1gMXC8RfkdIlmqZZYq7GGlT3ci-1wbaoj4jwCxgkjTMM/edit?usp=sharing">My Portfolio</a>
-      <a class="lets_connect" href="https://www.loom.com/share/85e2a4b1d1f84acb9ac83a38c601b2c5">Elevator Pitch</a>
       <a class="lets_connect" href="https://github.com/naanmohammed">LET'S CONNECT</a>
-      <ul class="social-media-lists">
+      <ul>
+        <li><a href="https://twitter.com/_naanahmed" target="_blank"><img src="images/twitter.jpg" alt="twitter logo"></a></li>
+        <li><a href="https://linkedin.com/in/naanahmed" target="_blank"><img src="images/i.jpg" alt="linkedin logo"><img src ="images/n.jpg" alt="linkedin logo"></a></li>
+        <li><a href="https://medium.com/@naanahmed" target="_blank"><img src="images/medium.jpg" alt="medium logo"></a></li>
+        <li><a href="https://github.com/naanmohammed" target="_blank"><img src="images/github.jpg" alt="github logo"></a></li>
+        <li><a href="https://reddit.com/user/naanahmed" target="_blank"><img src="images/reddit.jpg" alt="reddit logo"></a></li>
       </ul>
     </div>
   </section>
-  <section id="Portfolio">
-    <div class="works_container">
+  <section id="Portfolio" class="work">
+    <div class="works_list">
+      <div class="work_image_container"><div class="work_image work_1"></div></div>
+      <div class="work_summary">
+        <h1>GDG-Addis</h1>
+        <ul class="subheader">
+          <li class="work_client">Google Developers</li>
+          <li class="work_bullet"></li>
+          <li>Front End Dev</li>
+          <li class="work_bullet"></li>
+          <li>2023</li>
+        </ul>
+        <p>The GDG Addis website is your gateway to the GDG Addis Conference, an exciting tech event in Addis Ababa. This site offers a seamless experience for attendees and enthusiasts, allowing them to explore details about the event, its speakers, and sponsors. With a user-friendly interface and interactive features, the website makes it easy to navigate through conference-related content. Whether you're looking for information about the speakers or interested in the event's sponsors, this website provides all the details you need.
+        </p>
+        <ul class="tags">
+          <li>html</li>
+          <li>css</li>
+          <li>javaScript</li>
+        </ul>
+        <button data-project="1">See Project</button>
+      </div>
+    </div>
+    <div class="works_list">
+      <div class="work_image_container work_image_reversed"><div class="work_image work_2"></div></div>
+      <div class="work_summary work_2_summary">
+        <h1>Space Travelers Hub</h1>
+        <ul class="subheader">
+          <li class="work_client">Microverse</li>
+          <li class="work_bullet"></li>
+          <li>Front End Dev</li>
+          <li class="work_bullet"></li>
+          <li>2023</li>
+        </ul>
+        <p><span>Space Travelers' Hub is your portal to embark on cosmic adventures. This web application allows you to book your very own rockets and dragons for exhilarating journeys into the vast unknown. You can also sign up to join thrilling space missions. Built with cutting-edge web technologies, including React, Space Travelers' Hub offers a seamless and user-friendly interface for space enthusiasts. With just a few clicks, you can reserve your seat on a rocket or dragon, preparing for an out-of-this-world experience. </span>
+        </p>
+        <ul class="tags">
+          <li>html</li>
+          <li>css</li>
+          <li class="ruby_tag">reactjs</li>
+          <li>javaScript</li>
+        </ul>
+        <button data-project="2">See Project</button>
+      </div>
+    </div>
+    <div class="works_list">
+      <div class="work_image_container"><div class="work_image work_3"></div></div>
+      <div class="work_summary work_3_summary">
+        <h1>Central Cinema Trends</h1>
+        <ul class="subheader">
+          <li class="work_client">Private</li>
+          <li class="work_bullet"></li>
+          <li>Front End Dev</li>
+          <li class="work_bullet"></li>
+          <li>2023</li>
+        </ul>
+        <p><span>Central Cinema Trends is your go-to platform for discovering the hottest movies in the world of entertainment. Crafted by talented developers as part of their Full-Stack Web Development journey, this web application brings the magic of cinema to your fingertips. With an intuitive and dynamic interface built using HTML, CSS, and JavaScript, users can explore a wide range of movies, post comments, and express their love for their favorite films by giving them likes</span>
+        </p>
+        <ul class="tags">
+          <li>html</li>
+          <li>css</li>
+          <li class="ruby_tag">Ruby on rails</li>
+          <li>javaScript</li>
+        </ul>
+        <button data-project="3">See Project</button>
+      </div>
+    </div>
+    <div class="works_list">
+      <div class="work_image_container work_image_reversed"><div class="work_image work_4"></div></div>
+      <div class="work_summary work_4_summary">
+        <h1>Crypto Markets</h1>
+        <ul class="subheader">
+          <li class="work_client">Microverse</li>
+          <li class="work_bullet"></li>
+          <li>Front End Dev</li>
+          <li class="work_bullet"></li>
+          <li>2015</li>
+        </ul>
+        <p><span>Crypto Metrics is a a user-friendly website designed to keep you informed about the latest cryptocurrency data. With Crypto Metrics Mobile, you can effortlessly access real-time information about various cryptocurrencies, including their name, rank, current price, and 24-hour price change. Powered by a reliable API, CryptoTracker Mobile ensures that you stay up to date with the dynamic nature of the crypto market. Whether you're an avid investor, a trader, or simply curious about cryptocurrencies, this mobile website provides you with accurate and timely data that you can rely on. </span>
+        </p>
+        <ul class="tags">
+          <li>html</li>
+          <li>css</li>
+          <li class="ruby_tag">Ruby on rails</li>
+          <li>javaScript</li>
+        </ul>
+        <button data-project="4">See Project</button>
+      </div>
     </div>
   </section>
   <section id="About" class="about_myself">
@@ -62,27 +141,33 @@
       <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work
         and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
       <a href="https://github.com/naanmohammed">LET'S CONNECT</a>
-      <ul class="social-media-links">
+      <ul>
+        <li><a href="https://twitter.com/_naanahmed" target="_blank"><img src="images/twitter.jpg" alt="twitter logo"></a></li>
+        <li><a href="https://linkedin.com/in/naanahmed" target="_blank"><img src="images/i.jpg" alt="linkedin logo"><img src ="images/n.jpg" alt="linkedin logo"></a></li>
+        <li><a href="https://medium.com/naanahmed" target="_blank"><img src="images/medium.jpg" alt="medium logo"></a></li>
+        <li><a href="https://github.com/naanmohammed" target="_blank"><img src="images/github.jpg" alt="github logo"></a></li>
+        <li><a href="https://reddit.com/user/naanahmed" target="_blank"><img src="images/reddit.jpg" alt="reddit logo"></a></li>
       </ul>
       <button>Get my resume</button>
     </div>
     <div class="languages">
       <div class="language_header">
         <h3>Languages</h3>
-        <img id="languagesButton" class="down_arrow" src="images/Icon-down.png"></img>
+        <p class="down_arrow"></p>
       </div>
-      <ul class="language_list_container">
+      <ul class="language_list">
+        <li><img src="images/javascript.jpg" alt="javaScript logo"><p>Javascript</p></li>
+        <li><img src="images/html.jpg" alt="html logo"><p>HTML</p></li>
+        <li><img src="images/css.jpg" alt="css logo"><p>CSS</p></li>
       </ul>
       <div class="skill_frameworks">
         <h3>Frameworks</h3>
-        <img class="icon_right" id="frameworksButton" src="images/Icon-right.png"></img>
+        <p class="icon_right"></p>
       </div>
-      <ul id="frameworksList" class="frameworks-list"></ul>
       <div class="skill_frameworks">
         <h3>Skills</h3>
-        <img class="icon_right" id="skillsButton" src="images/Icon-right.png"></img>
+        <p class="icon_right"></p>
       </div>
-      <ul id="skillsList" class="skills-list"></ul>
     </div>
   </section>
   <section id="Contact" class="contact_me_container">
@@ -100,13 +185,6 @@
       </form>
     </div>
   </section>
-  <script src="js/index.js"></script>
-  <script src="js/portfolioProjects.js"></script>
-  <script src="js/socialMediaIcons.js"></script>
-  <script src="js/languages.js"></script>
-  <script src="js/frameworks.js"></script>
-  <script src="js/skills.js"></script>
-  <script src="js/validation.js"></script>
-  <script src="js/localStorage.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
