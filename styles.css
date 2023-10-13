@@ -245,3 +245,71 @@ main {
   margin-top: 20px;
   padding: 5px;
 }
+
+.skills {
+  margin-bottom: 150px;
+}
+
+.contact-me {
+  background-image: url(./assets/contact-form-bg.png);
+  background-size: 60% 95%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #6070FF;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  border-top-left-radius: 80px;
+  margin-top: -60px;
+  padding: 100px 20px 20px;
+}
+
+.contact-me h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-me p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input {
+  background: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 15px;
+  min-width: 325px;
+}
+
+.contact-form textarea {
+  min-height: 175px;
+  background: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  min-width: 300px;
+}
+
+.contact-form button {
+  max-width: 142px;
+  max-height: 48px;
+  padding: 12px 16px 12px 16px;
+  border-radius: 5px;
+  background-color: #fff;
+  color:#6070FF;
+  border: none;
+}
